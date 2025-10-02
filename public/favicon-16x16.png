@@ -1,0 +1,3 @@
+# This would be a 16x16 PNG file
+# In a real implementation, you'd generate this from the SVG logo
+# For now, this is a placeholder - the icon.tsx will handle the favicon
