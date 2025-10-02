@@ -166,15 +166,15 @@ export class SmartCacheManager {
     return null
   }
 
-  private async getColdEntry(key: string): Promise<CompactCacheEntry | null> {
+  private async getColdEntry(key: string): Promise<CompactCacheEntry | undefined> {
     try {
-      if (!fs.existsSync(this.cacheFilePath)) return null
+      if (!fs.existsSync(this.cacheFilePath)) return undefined
       
       const data = JSON.parse(fs.readFileSync(this.cacheFilePath, 'utf-8'))
-      return data.cache[key] || null
+      return data.cache[key] || undefined
     } catch (error) {
       console.error('Error reading cold storage:', error)
-      return null
+      return undefined
     }
   }
 

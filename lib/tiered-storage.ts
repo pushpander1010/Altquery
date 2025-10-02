@@ -238,7 +238,8 @@ export class TieredStorageManager {
     const now = Date.now()
     
     // Clean up access log for deleted items
-    for (const [key, access] of this.accessLog.entries()) {
+    const accessEntries = Array.from(this.accessLog.entries())
+    for (const [key, access] of accessEntries) {
       const exists = STORAGE_TIERS.some(tier => 
         this.tiers.get(tier.name)?.has(key)
       )

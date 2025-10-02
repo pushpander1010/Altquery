@@ -121,7 +121,8 @@ export class VercelCacheManager {
     const now = new Date().getTime()
     let removedCount = 0
 
-    for (const [key, entry] of memoryCache.entries()) {
+    const cacheEntries = Array.from(memoryCache.entries())
+    for (const [key, entry] of cacheEntries) {
       const entryAge = now - new Date(entry.timestamp).getTime()
       
       if (entryAge > maxAge && entry.searchCount < 2) {
