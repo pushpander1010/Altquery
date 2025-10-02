@@ -29,20 +29,11 @@ export const metadata: Metadata = {
     title: 'AltQuery - Find Better Alternatives',
     description: 'Discover the best alternatives to popular software, tools, and services. Compare features, pricing, and reviews.',
     siteName: 'AltQuery',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'AltQuery - Find Better Alternatives',
-      },
-    ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'AltQuery - Find Better Alternatives',
     description: 'Discover the best alternatives to popular software, tools, and services.',
-    images: ['/og-image.png'],
     creator: '@altquery',
   },
   verification: {
@@ -59,11 +50,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Favicon and Icons */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
+        {/* Site Icon */}
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
         
         {/* Theme Color */}
         <meta name="theme-color" content="#4F46E5" />
