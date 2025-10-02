@@ -49,9 +49,9 @@ const STORAGE_STRATEGIES: StorageStrategy[] = [
 
 export class StorageOrchestrator {
   private static instance: StorageOrchestrator
-  private smartCache: SmartCacheManager
-  private tieredStorage: TieredStorageManager
-  private hybridStorage: HybridStorageStrategy
+  private smartCache!: SmartCacheManager
+  private tieredStorage!: TieredStorageManager
+  private hybridStorage!: HybridStorageStrategy
   private currentStrategy: string = 'smart'
   private metrics = {
     totalRequests: 0,

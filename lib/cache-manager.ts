@@ -34,7 +34,15 @@ const CACHE_FILE_PATH = path.join(process.cwd(), 'data', 'ai-cache.json')
 
 export class CacheManager {
   private static instance: CacheManager
-  private cacheData: CacheData
+  private cacheData: CacheData = {
+    cache: {},
+    metadata: {
+      created: new Date().toISOString(),
+      lastUpdated: new Date().toISOString(),
+      totalEntries: 0,
+      version: '1.0'
+    }
+  }
 
   private constructor() {
     this.loadCache()
