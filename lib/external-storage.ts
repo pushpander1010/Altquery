@@ -212,7 +212,9 @@ export class HybridStorageStrategy {
     // Manage local cache size
     if (this.localCache.size > this.maxLocalSize) {
       const oldestKey = this.localCache.keys().next().value
-      this.localCache.delete(oldestKey)
+      if (oldestKey) {
+        this.localCache.delete(oldestKey)
+      }
     }
   }
 
