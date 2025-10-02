@@ -1,0 +1,159 @@
+{
+  "alternatives": [
+    {
+      "id": "notion-alternatives",
+      "name": "Notion",
+      "category": "Productivity",
+      "description": "All-in-one workspace for notes, tasks, wikis, and databases",
+      "keywords": ["notion", "notes", "productivity", "workspace", "wiki", "database"],
+      "alternatives": [
+        {
+          "name": "Obsidian",
+          "description": "Powerful knowledge base that works on top of local folder of plain text Markdown files",
+          "pricing": "Free / $50/year",
+          "pros": ["Local files", "Powerful linking", "Plugin ecosystem"],
+          "cons": ["Steep learning curve", "No real-time collaboration"],
+          "rating": 4.5,
+          "website": "https://obsidian.md",
+          "affiliate": true
+        },
+        {
+          "name": "Roam Research",
+          "description": "Note-taking tool for networked thought with bi-directional linking",
+          "pricing": "$15/month",
+          "pros": ["Bi-directional links", "Graph database", "Block references"],
+          "cons": ["Expensive", "Complex interface"],
+          "rating": 4.2,
+          "website": "https://roamresearch.com",
+          "affiliate": false
+        },
+        {
+          "name": "Logseq",
+          "description": "Privacy-first, open-source knowledge base that works on top of local plain-text Markdown files",
+          "pricing": "Free",
+          "pros": ["Open source", "Local-first", "Block-based"],
+          "cons": ["Less polished UI", "Smaller community"],
+          "rating": 4.3,
+          "website": "https://logseq.com",
+          "affiliate": false
+        }
+      ]
+    },
+    {
+      "id": "figma-alternatives",
+      "name": "Figma",
+      "category": "Design",
+      "description": "Collaborative interface design tool",
+      "keywords": ["figma", "design", "ui", "ux", "prototype", "collaboration"],
+      "alternatives": [
+        {
+          "name": "Sketch",
+          "description": "Digital design toolkit for Mac",
+          "pricing": "$99/year",
+          "pros": ["Native Mac app", "Extensive plugins", "Industry standard"],
+          "cons": ["Mac only", "No real-time collaboration"],
+          "rating": 4.4,
+          "website": "https://sketch.com",
+          "affiliate": true
+        },
+        {
+          "name": "Adobe XD",
+          "description": "Vector-based user experience design tool",
+          "pricing": "Free / $9.99/month",
+          "pros": ["Adobe integration", "Voice prototyping", "Free tier"],
+          "cons": ["Limited compared to Figma", "Adobe ecosystem lock-in"],
+          "rating": 4.1,
+          "website": "https://adobe.com/products/xd",
+          "affiliate": true
+        }
+      ]
+    },
+    {
+      "id": "slack-alternatives",
+      "name": "Slack",
+      "category": "Communication",
+      "description": "Team communication and collaboration platform",
+      "keywords": ["slack", "chat", "team", "communication", "messaging", "collaboration"],
+      "alternatives": [
+        {
+          "name": "Discord",
+          "description": "Voice, video and text communication service",
+          "pricing": "Free / $9.99/month",
+          "pros": ["Great voice quality", "Gaming focused", "Free tier"],
+          "cons": ["Less business features", "Can be distracting"],
+          "rating": 4.3,
+          "website": "https://discord.com",
+          "affiliate": false
+        },
+        {
+          "name": "Microsoft Teams",
+          "description": "Unified communication and collaboration platform",
+          "pricing": "Free / $4/month",
+          "pros": ["Office integration", "Enterprise features", "Video conferencing"],
+          "cons": ["Can be slow", "Complex interface"],
+          "rating": 4.0,
+          "website": "https://teams.microsoft.com",
+          "affiliate": true
+        }
+      ]
+    },
+    {
+      "id": "photoshop-alternatives",
+      "name": "Photoshop",
+      "category": "Design",
+      "description": "Professional image editing software",
+      "keywords": ["photoshop", "photo", "editing", "image", "graphics", "adobe"],
+      "alternatives": [
+        {
+          "name": "GIMP",
+          "description": "Free and open-source image editor",
+          "pricing": "Free",
+          "pros": ["Completely free", "Open source", "Powerful features"],
+          "cons": ["Steep learning curve", "Different UI paradigm"],
+          "rating": 4.2,
+          "website": "https://gimp.org",
+          "affiliate": false
+        },
+        {
+          "name": "Canva",
+          "description": "Online design and publishing tool",
+          "pricing": "Free / $12.99/month",
+          "pros": ["Easy to use", "Templates", "Web-based"],
+          "cons": ["Limited advanced features", "Subscription model"],
+          "rating": 4.4,
+          "website": "https://canva.com",
+          "affiliate": true
+        }
+      ]
+    },
+    {
+      "id": "memechat-alternatives",
+      "name": "MemeChat",
+      "category": "Communication",
+      "description": "Meme-based messaging and social platform",
+      "keywords": ["memechat", "meme", "chat", "messaging", "social", "funny"],
+      "alternatives": [
+        {
+          "name": "Discord",
+          "description": "Voice, video and text communication with meme support",
+          "pricing": "Free / $9.99/month",
+          "pros": ["Great meme sharing", "Communities", "Free tier"],
+          "cons": ["Can be overwhelming", "Gaming focused"],
+          "rating": 4.3,
+          "website": "https://discord.com",
+          "affiliate": false
+        },
+        {
+          "name": "Telegram",
+          "description": "Cloud-based messaging with sticker and meme support",
+          "pricing": "Free",
+          "pros": ["Great stickers", "Large file sharing", "Privacy focused"],
+          "cons": ["Less mainstream", "Interface can be cluttered"],
+          "rating": 4.1,
+          "website": "https://telegram.org",
+          "affiliate": false
+        }
+      ]
+    }
+  ]
+}
