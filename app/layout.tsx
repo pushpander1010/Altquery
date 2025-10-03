@@ -4,6 +4,7 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+
 export const metadata: Metadata = {
   title: 'AltQuery - Find Better Alternatives',
   description: 'Discover the best alternatives to popular software, tools, and services. Compare features, pricing, and reviews.',
