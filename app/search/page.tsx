@@ -113,11 +113,10 @@ export default function SearchPage() {
       setAiResults(data)
       setShowAIResults(true)
     } catch (error) {
-      console.error('Error generating AI alternatives:', error)
-      // Show fallback message
+      // Show user-friendly error message without exposing technical details
       setAiResults({
         error: true,
-        message: 'Unable to generate alternatives at the moment'
+        message: 'Unable to generate alternatives at the moment. Please try again later.'
       })
     } finally {
       setIsLoadingAI(false)
@@ -308,36 +307,41 @@ export default function SearchPage() {
           <div className="space-y-6">
             {/* Check if AI returned setup message */}
             {aiResults.alternatives?.[0]?.name === 'No AI Available' ? (
-              <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
                 <div className="flex items-center mb-4">
-                  <Sparkles className="w-6 h-6 text-yellow-600 mr-2" />
+                  <Search className="w-6 h-6 text-blue-600 mr-2" />
                   <h2 className="text-xl font-semibold text-gray-900">
-                    AI Setup Required for "{query}"
+                    No Results Found for "{query}"
                   </h2>
                 </div>
                 <p className="text-gray-700 mb-4">
-                  To get real, accurate alternatives for any software, configure one of these AI providers:
+                  We couldn't find any alternatives for "{query}" in our database. Here's what you can do:
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div className="bg-white rounded-lg p-4 border">
-                    <h3 className="font-semibold text-purple-700">Perplexity</h3>
-                    <p className="text-sm text-gray-600">Best for research</p>
-                    <p className="text-xs text-green-600">~$0.001/request</p>
+                    <h3 className="font-semibold text-indigo-700 mb-2">📝 Submit an Alternative</h3>
+                    <p className="text-sm text-gray-600 mb-3">Help our community by adding alternatives for this software</p>
+                    <Link href="/submit" className="text-indigo-600 hover:text-indigo-800 text-sm font-medium">
+                      Submit Alternative →
+                    </Link>
                   </div>
                   <div className="bg-white rounded-lg p-4 border">
-                    <h3 className="font-semibold text-blue-700">Gemini 2.5 Pro</h3>
-                    <p className="text-sm text-gray-600">Great quality</p>
-                    <p className="text-xs text-green-600">Very affordable</p>
-                  </div>
-                  <div className="bg-white rounded-lg p-4 border">
-                    <h3 className="font-semibold text-indigo-700">OpenRouter</h3>
-                    <p className="text-sm text-gray-600">Multiple models</p>
-                    <p className="text-xs text-green-600">Flexible pricing</p>
+                    <h3 className="font-semibold text-green-700 mb-2">🔍 Browse Categories</h3>
+                    <p className="text-sm text-gray-600 mb-3">Explore alternatives in different software categories</p>
+                    <Link href="/categories" className="text-green-600 hover:text-green-800 text-sm font-medium">
+                      Browse Categories →
+                    </Link>
                   </div>
                 </div>
-                <p className="text-sm text-gray-600">
-                  Add any API key to your <code className="bg-gray-200 px-1 rounded">.env.local</code> file to enable AI-powered alternatives.
-                </p>
+                <div className="bg-white rounded-lg p-4 border border-gray-200">
+                  <h3 className="font-semibold text-gray-900 mb-2">💡 Search Tips:</h3>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Try searching for the software category instead (e.g., "photo editor", "note taking")</li>
+                    <li>• Check for typos in your search term</li>
+                    <li>• Use the official product name if searching for a specific tool</li>
+                    <li>• Browse our trending alternatives for popular software</li>
+                  </ul>
+                </div>
               </div>
             ) : (
               <>

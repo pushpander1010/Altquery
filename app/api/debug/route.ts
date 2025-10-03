@@ -4,26 +4,30 @@ import { NextResponse } from 'next/server'
 export const dynamic = 'force-dynamic'
 
 export async function GET() {
+  // Only allow debug in development environment
+  if (process.env.NODE_ENV === 'production') {
+    return NextResponse.json(
+      { error: 'Debug endpoint not available in production' },
+      { status: 404 }
+    )
+  }
+
   const apiStatus = {
     timestamp: new Date().toISOString(),
     environment: {
       NODE_ENV: process.env.NODE_ENV,
-      hasPerplexity: !!process.env.PERPLEXITY_API_KEY,
-      hasGemini: !!process.env.GEMINI_API_KEY,
-      hasOpenRouter: !!process.env.OPENROUTER_API_KEY,
-      hasOpenAI: !!process.env.OPENAI_API_KEY,
     },
-    apiKeys: {
-      perplexity: process.env.PERPLEXITY_API_KEY ? `${process.env.PERPLEXITY_API_KEY.substring(0, 10)}...` : 'Not set',
-      gemini: process.env.GEMINI_API_KEY ? `${process.env.GEMINI_API_KEY.substring(0, 10)}...` : 'Not set',
-      openrouter: process.env.OPENROUTER_API_KEY ? `${process.env.OPENROUTER_API_KEY.substring(0, 10)}...` : 'Not set',
-      openai: process.env.OPENAI_API_KEY ? `${process.env.OPENAI_API_KEY.substring(0, 10)}...` : 'Not set',
+    services: {
+      perplexity: !!process.env.PERPLEXITY_API_KEY ? 'configured' : 'not configured',
+      gemini: !!process.env.GEMINI_API_KEY ? 'configured' : 'not configured',
+      openrouter: !!process.env.OPENROUTER_API_KEY ? 'configured' : 'not configured',
+      openai: !!process.env.OPENAI_API_KEY ? 'configured' : 'not configured',
     }
   }
 
   return NextResponse.json({
     success: true,
-    message: 'Debug information',
+    message: 'Debug information (development only)',
     ...apiStatus
   })
 }

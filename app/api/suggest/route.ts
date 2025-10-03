@@ -112,8 +112,8 @@ Return valid JSON array only, no markdown or explanation.`
     const alternatives = JSON.parse(content)
     return alternatives
   } catch (error) {
-    console.error('Perplexity API error:', error)
-    throw error
+    console.error('Perplexity API request failed')
+    throw new Error('AI service temporarily unavailable')
   }
 }
 
@@ -164,8 +164,8 @@ Return valid JSON array only, no markdown or explanation.`
     const alternatives = JSON.parse(content)
     return alternatives
   } catch (error) {
-    console.error('Gemini API error:', error)
-    throw error
+    console.error('Gemini API request failed')
+    throw new Error('AI service temporarily unavailable')
   }
 }
 
@@ -223,8 +223,8 @@ Return valid JSON array only, no markdown or explanation.`
     const alternatives = JSON.parse(content)
     return alternatives
   } catch (error) {
-    console.error('OpenRouter API error:', error)
-    throw error
+    console.error('OpenRouter API request failed')
+    throw new Error('AI service temporarily unavailable')
   }
 }
 
@@ -280,8 +280,8 @@ Return valid JSON array only, no markdown or explanation.`
     const alternatives = JSON.parse(content)
     return alternatives
   } catch (error) {
-    console.error('OpenAI API error:', error)
-    throw error
+    console.error('OpenAI API request failed')
+    throw new Error('AI service temporarily unavailable')
   }
 }
 
@@ -291,16 +291,6 @@ async function generateAlternatives(productName: string): Promise<Alternative[]>
   const normalizedName = productName.toLowerCase().trim()
   const storage = StorageOrchestrator.getInstance()
   
-  // Debug: Log API key availability
-  console.log('API Key Status:', {
-    perplexity: !!PERPLEXITY_API_KEY,
-    gemini: !!GEMINI_API_KEY,
-    openrouter: !!OPENROUTER_API_KEY,
-    openai: !!OPENAI_API_KEY,
-    productName: productName,
-    environment: process.env.NODE_ENV
-  })
-  
   // First, check intelligent storage for cached results
   const cachedResult = await storage.get(productName)
   if (cachedResult) {
@@ -309,7 +299,6 @@ async function generateAlternatives(productName: string): Promise<Alternative[]>
   
   // Second, check if we have fallback data
   if (fallbackAlternatives[normalizedName]) {
-    console.log(`Using fallback data for: ${productName}`)
     // Cache the fallback data for faster future access
     await storage.set(productName, {
       alternatives: fallbackAlternatives[normalizedName],
@@ -330,9 +319,7 @@ async function generateAlternatives(productName: string): Promise<Alternative[]>
   for (const provider of providers) {
     if (provider.key) {
       try {
-        console.log(`Trying ${provider.name} for: ${productName}`)
         const result = await provider.fn(productName)
-        console.log(`${provider.name} succeeded for: ${productName}`)
         
         // Cache the AI result for future use
         await storage.set(productName, {
@@ -344,16 +331,14 @@ async function generateAlternatives(productName: string): Promise<Alternative[]>
         
         return result
       } catch (error) {
-        console.error(`${provider.name} failed for ${productName}:`, error)
+        // Log error without exposing sensitive information
+        console.error(`AI provider failed for query: ${productName}`)
         // Continue to next provider
       }
-    } else {
-      console.log(`${provider.name} API key not available`)
     }
   }
 
   // If all AI providers fail, use basic alternatives
-  console.log(`All AI providers failed for ${productName}, using basic alternatives`)
   const basicResult = generateBasicAlternatives(productName)
   
   // Don't cache the "No AI Available" message
@@ -501,17 +486,17 @@ function generateBasicAlternatives(productName: string): Alternative[] {
     return commonAlternatives[normalizedName]
   }
 
-  // If no specific alternatives, return a helpful message instead of fake ones
+  // If no specific alternatives, return a helpful message
   return [
     {
       name: 'No AI Available',
-      description: `Configure AI API keys to get real alternatives for ${productName}`,
-      pricing: 'Setup Required',
-      pros: ['Real alternatives available with AI', 'Accurate information', 'Current market data'],
-      cons: ['Requires API key setup', 'Small cost per request'],
+      description: `No alternatives found for ${productName} in our database`,
+      pricing: 'Not Available',
+      pros: ['Submit alternatives to help the community', 'Browse categories for similar software', 'Check trending alternatives'],
+      cons: ['Limited database coverage', 'Manual curation needed'],
       rating: 0,
-      website: 'https://altquery.com/setup',
-      category: 'Setup Required'
+      website: '/submit',
+      category: 'Not Found'
     }
   ]
 }
@@ -545,9 +530,28 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Input validation and sanitization
+    const productName = body.productName.trim()
+    if (productName.length === 0) {
+      return NextResponse.json(
+        { error: 'Product name cannot be empty' },
+        { status: 400 }
+      )
+    }
+
+    if (productName.length > 100) {
+      return NextResponse.json(
+        { error: 'Product name too long (max 100 characters)' },
+        { status: 400 }
+      )
+    }
+
+    // Basic sanitization - remove potentially harmful characters
+    const sanitizedProductName = productName.replace(/[<>\"'&]/g, '')
+
     // Content filtering
     const contentFilter = ContentFilter.getInstance()
-    const filterResult = contentFilter.checkContent(body.productName)
+    const filterResult = contentFilter.checkContent(sanitizedProductName)
     
     if (!filterResult.allowed) {
       return NextResponse.json({
@@ -556,27 +560,27 @@ export async function POST(request: NextRequest) {
         category: filterResult.category,
         message: filterResult.message,
         alternatives: filterResult.alternatives,
-        productName: body.productName,
+        productName: sanitizedProductName,
         timestamp: new Date().toISOString()
       }, { status: 400 })
     }
 
-    const alternatives = await generateAlternatives(body.productName)
+    const alternatives = await generateAlternatives(sanitizedProductName)
 
     return NextResponse.json({
       success: true,
-      productName: body.productName,
+      productName: sanitizedProductName,
       alternatives,
       generated: true,
       timestamp: new Date().toISOString()
     })
 
   } catch (error) {
-    console.error('API error:', error)
+    console.error('API error occurred')
     return NextResponse.json(
       { 
         error: 'Failed to generate alternatives',
-        message: error instanceof Error ? error.message : 'Unknown error'
+        message: 'Unable to process your request at this time. Please try again later.'
       },
       { status: 500 }
     )
@@ -594,21 +598,33 @@ export async function GET(request: NextRequest) {
     )
   }
 
+  // Input validation and sanitization for GET request
+  const sanitizedProductName = productName.trim().replace(/[<>\"'&]/g, '')
+  if (sanitizedProductName.length === 0 || sanitizedProductName.length > 100) {
+    return NextResponse.json(
+      { error: 'Invalid product name' },
+      { status: 400 }
+    )
+  }
+
   try {
-    const alternatives = await generateAlternatives(productName)
+    const alternatives = await generateAlternatives(sanitizedProductName)
 
     return NextResponse.json({
       success: true,
-      productName,
+      productName: sanitizedProductName,
       alternatives,
       generated: true,
       timestamp: new Date().toISOString()
     })
 
   } catch (error) {
-    console.error('API error:', error)
+    console.error('API error occurred')
     return NextResponse.json(
-      { error: 'Failed to generate alternatives' },
+      { 
+        error: 'Failed to generate alternatives',
+        message: 'Unable to process your request at this time. Please try again later.'
+      },
       { status: 500 }
     )
   }
