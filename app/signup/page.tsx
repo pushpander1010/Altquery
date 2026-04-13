@@ -20,7 +20,7 @@ export default function SignupPage() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(form),
     })
-    const data = await res.json()
+    const data = await res.json().catch(() => ({ error: 'Server error' }))
     setLoading(false)
     if (!res.ok) {
       setError(data.error || 'Something went wrong')
