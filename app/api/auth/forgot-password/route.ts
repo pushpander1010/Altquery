@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     const { email } = body
     if (!email) return NextResponse.json({ error: 'Email required' }, { status: 400 })
 
-    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY)
+    if (!process.env.DATABASE_URL)
       return NextResponse.json({ error: 'Database not configured' }, { status: 503 })
 
     const user = await db.findUserByEmail(email)

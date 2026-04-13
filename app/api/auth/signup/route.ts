@@ -17,8 +17,8 @@ export async function POST(req: NextRequest) {
     if (password.length < 6)
       return NextResponse.json({ error: 'Password must be at least 6 characters' }, { status: 400 })
 
-    // Check Supabase config
-    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY)
+    // Check DB config
+    if (!process.env.DATABASE_URL)
       return NextResponse.json({ error: 'Database not configured' }, { status: 503 })
 
     const existing = await db.findUserByEmail(email)
