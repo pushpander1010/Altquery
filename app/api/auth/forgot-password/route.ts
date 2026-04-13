@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import crypto from 'crypto'
 import { db } from '@/lib/db'
+import { sendPasswordResetEmail } from '@/lib/email'
 
 export async function POST(req: NextRequest) {
   const { email } = await req.json()
@@ -11,14 +12,14 @@ export async function POST(req: NextRequest) {
 
   const token = crypto.randomBytes(32).toString('hex')
   const expiry = Date.now() + 1000 * 60 * 60 // 1 hour
-
   await db.setResetToken(user.id, token, expiry)
 
-  const resetUrl = `${process.env.NEXTAUTH_URL || 'http://localhost:3000'}/reset-password?token=${token}`
-  console.log('[DEV] Password reset link:', resetUrl)
+  try {
+    await sendPasswordResetEmail(email, user.name, token)
+  } catch (e) {
+    console.error('Failed to send reset email:', e)
+    return NextResponse.json({ error: 'Failed to send email. Try again later.' }, { status: 500 })
+  }
 
-  return NextResponse.json({
-    success: true,
-    ...(process.env.NODE_ENV === 'development' && { resetUrl }),
-  })
+  return NextResponse.json({ success: true })
 }

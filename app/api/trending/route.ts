@@ -4,8 +4,8 @@ import { authOptions } from '@/lib/auth'
 
 const YT_API_KEY = process.env.YOUTUBE_API_KEY
 
-// ─── Category → Instagram hashtags mapping ───────────────────────────────────
-export const CATEGORY_HASHTAGS: Record<string, string[]> = {
+// ─── Category → Instagram hashtags mapping (internal use only) ───────────────
+const CATEGORY_HASHTAGS: Record<string, string[]> = {
   all:          ['trendingreels', 'viralreels', 'trending'],
   comedy:       ['comedyreels', 'funnyreels', 'comedy'],
   dance:        ['dancereels', 'trending dance', 'dancevideo'],
