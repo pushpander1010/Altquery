@@ -1,0 +1,16 @@
+[
+  {
+    "id": "6c97d115-1a80-4dc9-a05e-c85ff8f10369",
+    "name": "Pushpander Kumar",
+    "email": "pkumar785ji@gmail.com",
+    "password": "$2b$10$kVCTtxjjZPINECv8sMNHkeY/vm0zUVeYiNygKoVnYtrocyqWVbBfS",
+    "createdAt": 1776101482838
+  },
+  {
+    "id": "452fec84-bc5a-4f6a-9fc2-2c748833286b",
+    "name": "Pushpander",
+    "email": "pushpanderkmr@gmail.com",
+    "password": "$2b$10$kTIWbC1flXsIqzB8/xrpWexowugsK94LivU2hb2LyCF3Vfr3ix1.G",
+    "createdAt": 1776106656504
+  }
+]
