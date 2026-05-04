@@ -54,8 +54,14 @@ Altquery/
 ├── app/
 │   ├── api/ai-assistant/    # AI assistant API route
 │   ├── question/[id]/       # Question detail pages
+│   ├── about/               # About page
+│   ├── contact/             # Contact page
+│   ├── privacy/             # Privacy policy
+│   ├── terms/               # Terms of service
 │   ├── page.tsx             # Homepage (questions list)
-│   └── layout.tsx           # Root layout
+│   ├── layout.tsx           # Root layout
+│   ├── sitemap.ts           # Dynamic sitemap
+│   └── robots.ts            # Robots.txt
 ├── lib/
 │   ├── questions.ts         # Question types
 │   └── questions-data.ts    # 1050+ questions

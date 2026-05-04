@@ -86,13 +86,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <h4 className="font-semibold text-white mb-4">Resources</h4>
                 <ul className="space-y-2 text-sm text-slate-400">
                   <li><Link href="/about" className="hover:text-white">About</Link></li>
+                  <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
                   <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
                   <li><Link href="/terms" className="hover:text-white">Terms of Service</Link></li>
                 </ul>
               </div>
             </div>
             <div className="text-center text-slate-500 text-sm border-t border-slate-800 pt-8">
-              <p>© 2024 AltQuery. Practice SQL for free. No login required.</p>
+              <p>© {new Date().getFullYear()} AltQuery. Practice SQL for free. No login required.</p>
             </div>
           </div>
         </footer>
