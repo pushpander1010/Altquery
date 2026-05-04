@@ -7,7 +7,7 @@ Free SQL practice platform with 1050+ interactive questions. No login required.
 - 🎯 **1050+ Questions** - Easy, Medium, and Hard difficulty levels
 - 💻 **In-Browser SQL** - Powered by SQL.js (SQLite WASM)
 - ✅ **Instant Validation** - Know if your answer is correct immediately
-- 🤖 **AI Assistant** - Get hints and help via Together AI
+- 🤖 **AI Assistant** - Get hints and help via LiquidAI (LFM2-24B-A2B model)
 - 📚 **Multiple Topics** - SELECT, JOINs, Window Functions, CTEs, Subqueries, and more
 - 🎨 **Modern UI** - Dark theme with Monaco Editor (VS Code's editor)
 
@@ -71,7 +71,7 @@ Altquery/
 - **Styling:** Tailwind CSS
 - **SQL Engine:** SQL.js (SQLite WASM)
 - **Editor:** Monaco Editor
-- **AI:** Together AI
+- **AI:** Together AI (LiquidAI/LFM2-24B-A2B model)
 
 ## Deployment
 

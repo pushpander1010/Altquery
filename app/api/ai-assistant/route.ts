@@ -10,33 +10,24 @@ export async function POST(req: NextRequest) {
   try {
     const { question, description, schema, userQuery, userMessage, conversationHistory } = await req.json()
 
-    // Build context for the AI
+    // Build context for the AI - only include schema
     const schemaContext = schema.map((s: any) => 
-      `Table: ${s.tableName}\nColumns: ${s.columns.join(', ')}\nDescription: ${s.description}`
+      `Table: ${s.tableName}\nColumns: ${s.columns.join(', ')}`
     ).join('\n\n')
 
-    const systemPrompt = `You are a helpful SQL tutor. You are helping a student with this SQL question:
-
-Question: ${question}
-Description: ${description}
+    const systemPrompt = `You are a SQL tutor helping with this question: "${question}"
 
 Database Schema:
 ${schemaContext}
 
-${userQuery ? `Student's current query:\n${userQuery}\n` : ''}
+${userQuery ? `Student's Query:\n${userQuery}\n` : ''}
 
-Your role:
-- Provide hints without giving away the complete solution
-- Point out errors in their SQL if they ask
-- Explain SQL concepts when asked
-- Stay focused on THIS specific question only
-- Be encouraging and supportive
-- Keep responses concise (2-3 sentences max)
-
-Do NOT:
-- Write the complete solution unless explicitly asked
-- Discuss topics unrelated to this SQL question
-- Be overly verbose`
+Rules:
+- Only answer SQL-related questions about THIS problem
+- Give hints, not complete solutions
+- If asked about unrelated topics, politely decline and redirect to SQL
+- Keep responses under 3 sentences
+- Be encouraging`
 
     const messages = [
       { role: 'system', content: systemPrompt },
@@ -54,9 +45,9 @@ Do NOT:
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo',
+        model: 'LiquidAI/LFM2-24B-A2B',
         messages,
-        max_tokens: 300,
+        max_tokens: 250,
         temperature: 0.7,
         top_p: 0.9,
         stream: false
