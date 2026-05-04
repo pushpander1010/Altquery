@@ -4,7 +4,10 @@ const TOGETHER_API_KEY = process.env.TOGETHER_API_KEY
 
 export async function POST(req: NextRequest) {
   if (!TOGETHER_API_KEY) {
-    return NextResponse.json({ error: 'AI service not configured' }, { status: 500 })
+    console.error('TOGETHER_API_KEY not found in environment variables')
+    return NextResponse.json({ 
+      error: 'AI service not configured. Please add TOGETHER_API_KEY environment variable.' 
+    }, { status: 500 })
   }
 
   try {
@@ -54,9 +57,44 @@ Rules:
       })
     })
 
+    // If LiquidAI model fails, try fallback model
+    if (!response.ok && response.status === 400) {
+      console.log('LiquidAI model unavailable, trying fallback...')
+      const fallbackResponse = await fetch('https://api.together.xyz/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${TOGETHER_API_KEY}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          model: 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo',
+          messages,
+          max_tokens: 250,
+          temperature: 0.7,
+          top_p: 0.9,
+          stream: false
+        })
+      })
+      
+      if (!fallbackResponse.ok) {
+        const errorText = await fallbackResponse.text()
+        console.error('Fallback model also failed:', fallbackResponse.status, errorText)
+        return NextResponse.json({ 
+          error: `AI service error: ${fallbackResponse.status}. Check server logs.` 
+        }, { status: 500 })
+      }
+      
+      const fallbackData = await fallbackResponse.json()
+      const aiResponse = fallbackData.choices[0]?.message?.content || 'Sorry, I could not generate a response.'
+      return NextResponse.json({ response: aiResponse })
+    }
+
     if (!response.ok) {
-      console.error('Together AI error:', await response.text())
-      return NextResponse.json({ error: 'AI service error' }, { status: 500 })
+      const errorText = await response.text()
+      console.error('Together AI API error:', response.status, errorText)
+      return NextResponse.json({ 
+        error: `AI service error: ${response.status}. Check server logs.` 
+      }, { status: 500 })
     }
 
     const data = await response.json()
