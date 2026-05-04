@@ -380,7 +380,7 @@ export default function QuestionPage() {
               <p className="text-sm text-slate-400 mb-3">{table.description}</p>
               <div className="flex flex-wrap gap-2">
                 {table.columns.map((col, i) => (
-                  <span key={i} className="px-2 py-1 bg-slate-900 rounded text-xs font-mono text-slate-300">
+                  <span key={i} className="px-2 py-1 bg-slate-900 rounded text-xs font-mono text-slate-300 break-all">
                     {col}
                   </span>
                 ))}
@@ -394,16 +394,16 @@ export default function QuestionPage() {
         {/* SQL Editor */}
         <div className="lg:col-span-2 space-y-6">
           <div className="card">
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
               <h2 className="text-lg font-semibold">SQL Editor</h2>
-              <div className="flex gap-2">
+              <div className="flex gap-2 flex-wrap">
                 <button 
                   onClick={resetDatabase} 
                   disabled={dbLoading || !db}
                   className="btn-ghost flex items-center gap-2 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <RotateCcw className="w-4 h-4" />
-                  {dbLoading ? 'Loading...' : 'Reset'}
+                  <span className="hidden sm:inline">{dbLoading ? 'Loading...' : 'Reset'}</span>
                 </button>
                 <button 
                   onClick={runQuery} 
@@ -411,13 +411,13 @@ export default function QuestionPage() {
                   className="btn-success flex items-center gap-2"
                 >
                   <Play className="w-4 h-4" />
-                  {dbLoading ? 'Loading...' : 'Run Query'}
+                  <span className="hidden sm:inline">{dbLoading ? 'Loading...' : 'Run Query'}</span>
                 </button>
               </div>
             </div>
             <div className="border border-slate-700 rounded-lg overflow-hidden">
               <Editor
-                height="200px"
+                height="250px"
                 defaultLanguage="sql"
                 value={sql}
                 onChange={(value) => setSql(value || '')}
@@ -438,6 +438,12 @@ export default function QuestionPage() {
                     other: true,
                     comments: false,
                     strings: false
+                  },
+                  scrollbar: {
+                    vertical: 'visible',
+                    horizontal: 'visible',
+                    verticalScrollbarSize: 12,
+                    horizontalScrollbarSize: 12
                   }
                 }}
                 onMount={(editor, monaco) => {
@@ -480,7 +486,10 @@ export default function QuestionPage() {
                 }}
               />
             </div>
-            <p className="text-xs text-slate-500 mt-2">Press Ctrl+Enter to run query • Start typing for autocomplete</p>
+            <p className="text-xs text-slate-500 mt-2">
+              <span className="hidden sm:inline">Press Ctrl+Enter to run query • </span>
+              Start typing for autocomplete
+            </p>
           </div>
 
           {/* Validation Result */}
@@ -547,18 +556,20 @@ export default function QuestionPage() {
 
         {/* AI Assistant */}
         <div className="lg:col-span-1">
-          <div className="card sticky top-24">
+          <div className="card lg:sticky lg:top-24">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-semibold flex items-center gap-2">
                 <MessageSquare className="w-5 h-5 text-indigo-400" />
-                AI Assistant
+                <span className="hidden sm:inline">AI Assistant</span>
+                <span className="sm:hidden">AI Help</span>
               </h2>
             </div>
             
-            <div className="space-y-4 mb-4 max-h-96 overflow-y-auto">
+            <div className="space-y-4 mb-4 max-h-80 lg:max-h-96 overflow-y-auto scrollbar-thin">
               {aiMessages.length === 0 ? (
                 <p className="text-sm text-slate-400 text-center py-8">
-                  Ask me for hints, corrections, or explanations!
+                  <span className="hidden sm:inline">Ask me for hints, corrections, or explanations!</span>
+                  <span className="sm:hidden">Ask for help!</span>
                 </p>
               ) : (
                 aiMessages.map((msg, i) => (
@@ -591,9 +602,10 @@ export default function QuestionPage() {
               <button
                 onClick={askAI}
                 disabled={aiLoading || !aiInput.trim()}
-                className="btn-primary px-3"
+                className="btn-primary px-3 flex-shrink-0"
               >
-                Send
+                <span className="hidden sm:inline">Send</span>
+                <span className="sm:hidden">→</span>
               </button>
             </div>
           </div>

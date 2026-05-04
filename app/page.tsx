@@ -125,9 +125,9 @@ export default function HomePage() {
 
       {/* Filters */}
       <div className="card mb-8 shadow-2xl">
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col gap-4">
           {/* Search */}
-          <div className="flex-1 relative">
+          <div className="relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500" />
             <input
               type="text"
@@ -138,41 +138,44 @@ export default function HomePage() {
             />
           </div>
 
-          {/* Difficulty Filter */}
-          <select
-            value={difficultyFilter}
-            onChange={(e) => setDifficultyFilter(e.target.value as Difficulty | 'all')}
-            className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all md:w-48"
-          >
-            <option value="all">All Difficulties</option>
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
-          </select>
+          {/* Filter Row */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {/* Difficulty Filter */}
+            <select
+              value={difficultyFilter}
+              onChange={(e) => setDifficultyFilter(e.target.value as Difficulty | 'all')}
+              className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all"
+            >
+              <option value="all">All Difficulties</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
 
-          {/* Topic Filter */}
-          <select
-            value={topicFilter}
-            onChange={(e) => setTopicFilter(e.target.value)}
-            className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all md:w-48"
-          >
-            <option value="all">All Topics</option>
-            {TOPICS.map(topic => (
-              <option key={topic} value={topic}>{topic}</option>
-            ))}
-          </select>
+            {/* Topic Filter */}
+            <select
+              value={topicFilter}
+              onChange={(e) => setTopicFilter(e.target.value)}
+              className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all"
+            >
+              <option value="all">All Topics</option>
+              {TOPICS.map(topic => (
+                <option key={topic} value={topic}>{topic}</option>
+              ))}
+            </select>
 
-          {/* Dialect Filter */}
-          <select
-            value={dialectFilter}
-            onChange={(e) => setDialectFilter(e.target.value)}
-            className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all md:w-48"
-          >
-            <option value="all">All SQL Dialects</option>
-            <option value="sqlite">SQLite</option>
-            <option value="mysql">MySQL</option>
-            <option value="postgresql">PostgreSQL</option>
-          </select>
+            {/* Dialect Filter */}
+            <select
+              value={dialectFilter}
+              onChange={(e) => setDialectFilter(e.target.value)}
+              className="bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all sm:col-span-2 lg:col-span-1"
+            >
+              <option value="all">All SQL Dialects</option>
+              <option value="sqlite">SQLite</option>
+              <option value="mysql">MySQL</option>
+              <option value="postgresql">PostgreSQL</option>
+            </select>
+          </div>
         </div>
       </div>
 
