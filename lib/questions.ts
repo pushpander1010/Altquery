@@ -32,7 +32,6 @@ export const TOPICS = [
   'String Functions',
   'Date Functions',
   'CASE Statements',
-  'Advanced',
 ] as const;
 
 export type Topic = typeof TOPICS[number];
