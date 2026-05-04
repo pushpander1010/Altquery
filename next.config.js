@@ -1,12 +1,24 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: 'i.ytimg.com' },
-      { protocol: 'https', hostname: '*.ytimg.com' },
-      { protocol: 'https', hostname: 'scontent.cdninstagram.com' },
-      { protocol: 'https', hostname: '*.cdninstagram.com' },
-    ],
+  webpack: (config) => {
+    config.experiments = {
+      ...config.experiments,
+      asyncWebAssembly: true,
+    }
+    return config
+  },
+  async headers() {
+    return [
+      {
+        source: '/sql-wasm/:path*.wasm',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'application/wasm',
+          },
+        ],
+      },
+    ]
   },
 }
 

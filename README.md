@@ -1,132 +1,85 @@
-# AltQuery - Alternative Finder Website
+# AltQuery - SQL Practice Platform
 
-A production-ready website for finding alternatives to popular software and services.
+Free SQL practice platform with 1050+ interactive questions. No login required.
 
-## 🚀 Quick Start
+## Features
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+- 🎯 **1050+ Questions** - Easy, Medium, and Hard difficulty levels
+- 💻 **In-Browser SQL** - Powered by SQL.js (SQLite WASM)
+- ✅ **Instant Validation** - Know if your answer is correct immediately
+- 🤖 **AI Assistant** - Get hints and help via Together AI
+- 📚 **Multiple Topics** - SELECT, JOINs, Window Functions, CTEs, Subqueries, and more
+- 🎨 **Modern UI** - Dark theme with Monaco Editor (VS Code's editor)
 
-2. **Run development server:**
-   ```bash
-   npm run dev
-   ```
+## Quick Start
 
-3. **Build for production:**
-   ```bash
-   npm run build
-   ```
+### 1. Install Dependencies
 
-## 📁 Project Structure
-
-```
-altquery/
-├── app/                    # Next.js 14 App Router
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx          # Homepage
-│   └── alternatives/      # Dynamic alternative pages
-├── data/                  # JSON data files
-│   └── alternatives.json  # Alternative data
-├── package.json
-└── next.config.js
+```bash
+npm install
 ```
 
-## 💰 Monetization Features
+### 2. Set Up Environment
 
-- **AI-Powered Content**: Generate alternatives for ANY software/service
-- **Smart Caching System**: AI results cached for instant future searches
-- **Self-Improving Database**: Popular searches automatically saved
-- **Google AdSense Integration**: Ad slots ready for approval
-- **Affiliate Links**: Built-in affiliate link support
-- **SEO Optimized**: Meta tags, structured data
-- **Fast Loading**: Optimized for Core Web Vitals
-- **Unlimited Content**: AI generates content for long-tail keywords
-
-## 🔧 Configuration
-
-### AI-Powered Alternatives (Multiple Options)
-1. **Perplexity API (Recommended)**:
-   - Get API key from [Perplexity](https://www.perplexity.ai/settings/api)
-   - Add to `.env.local`: `PERPLEXITY_API_KEY=your_key_here`
-   - Excellent for research and current information
-   - Cost: ~$0.001 per request
-
-2. **Google Gemini 2.5 Pro**:
-   - Get API key from [AI Studio](https://aistudio.google.com/app/apikey)
-   - Add to `.env.local`: `GEMINI_API_KEY=your_key_here`
-   - Great for creative content generation
-   - Very affordable pricing
-
-3. **OpenRouter (Multiple Models)**:
-   - Get API key from [OpenRouter](https://openrouter.ai/keys)
-   - Add to `.env.local`: `OPENROUTER_API_KEY=your_key_here`
-   - Access to Claude, GPT, and other models
-   - Flexible pricing options
-
-4. **OpenAI (Future Option)**:
-   - Get API key from [OpenAI Platform](https://platform.openai.com/api-keys)
-   - Add to `.env.local`: `OPENAI_API_KEY=your_key_here`
-   - Industry standard, higher cost
-
-5. **No API Keys**: 
-   - Site works without AI, uses fallback alternatives
-   - Still fully functional for existing data
-
-**Smart Fallback System**: The system tries providers in order and falls back gracefully if one fails.
-
-### Google AdSense
-1. Apply for Google AdSense
-2. Replace `ca-pub-XXXXXXXXXX` in `app/layout.tsx` with your publisher ID
-3. Add ad units to the placeholder divs
-
-### Domain Setup
-1. Point your domain to Vercel
-2. Add custom domain in Vercel dashboard
-3. SSL automatically configured
-
-## 📊 Analytics
-
-Add Google Analytics by including the tracking code in `app/layout.tsx`.
-
-## 🎯 SEO Features
-
-- Automatic sitemap generation
-- Meta tags optimization
-- Structured data for rich snippets
-- Fast loading times
-- Mobile responsive
-
-## 📝 Adding New Alternatives
-
-### Manual Addition
-Edit `data/alternatives.json` to add new alternatives:
-
-```json
-{
-  "id": "new-alternative",
-  "name": "Product Name",
-  "category": "Category",
-  "description": "Product description",
-  "alternatives": [...]
-}
+```bash
+cp .env.example .env
 ```
 
-### Automatic Caching System
-- AI-generated alternatives are automatically cached in `data/ai-cache.json`
-- Popular searches (5+ times) can be exported to main database
-- Cache management available at `/admin`
-- Old unused entries automatically cleaned up
+Edit `.env` and add your Together AI API key:
+```
+TOGETHER_API_KEY=your_actual_key_here
+```
 
-### Cache Management
-- **View Stats**: Visit `/admin` to see cache statistics
-- **API Endpoints**: 
-  - `GET /api/cache-stats` - Get cache statistics
-  - `POST /api/cache-stats` - Perform cache actions (cleanup, export)
-- **Automatic Cleanup**: Removes entries older than 30 days with <2 searches
+Get your free API key from [Together AI](https://api.together.xyz/)
 
-## 🚀 Deployment Ready
+### 3. Run Development Server
 
-This project is configured for zero-maintenance deployment on Vercel's free tier.
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000)
+
+### 4. Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## Project Structure
+
+```
+Altquery/
+├── app/
+│   ├── api/ai-assistant/    # AI assistant API route
+│   ├── question/[id]/       # Question detail pages
+│   ├── page.tsx             # Homepage (questions list)
+│   └── layout.tsx           # Root layout
+├── lib/
+│   ├── questions.ts         # Question types
+│   └── questions-data.ts    # 1050+ questions
+├── public/
+│   └── sql-wasm/            # SQL.js WASM files
+└── scripts/                 # Question generation scripts
+```
+
+## Tech Stack
+
+- **Framework:** Next.js 14
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **SQL Engine:** SQL.js (SQLite WASM)
+- **Editor:** Monaco Editor
+- **AI:** Together AI
+
+## Deployment
+
+Deploy to Vercel, Netlify, or any platform that supports Next.js.
+
+**Environment Variables:**
+- `TOGETHER_API_KEY` - Required for AI assistant
+
+## License
+
+MIT

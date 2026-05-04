@@ -7,45 +7,98 @@
   --surface: #13131a;
   --surface2: #1c1c26;
   --border: #2a2a3a;
-  --accent: #7c3aed;
-  --accent2: #06b6d4;
+  --accent: #6366f1;
+  --accent2: #22d3ee;
   --text: #e2e8f0;
   --muted: #64748b;
+  --easy: #22c55e;
+  --medium: #f59e0b;
+  --hard: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   background: var(--bg);
   color: var(--text);
   font-family: 'Inter', sans-serif;
+  min-height: 100vh;
 }
 
+/* Glass card */
 .glass {
-  background: rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(12px);
   border: 1px solid var(--border);
 }
 
+/* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #7c3aed, #06b6d4);
+  background: linear-gradient(135deg, #6366f1, #22d3ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
+/* Buttons */
 .btn-primary {
-  @apply bg-violet-600 hover:bg-violet-700 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  @apply bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-indigo-600/20 hover:shadow-indigo-500/30;
 }
 
 .btn-ghost {
-  @apply border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  @apply border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 hover:bg-slate-800/50;
 }
 
+.btn-success {
+  @apply bg-emerald-600 hover:bg-emerald-500 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-emerald-600/20 hover:shadow-emerald-500/30;
+}
+
+/* Input */
 .input-field {
-  @apply w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-violet-500 focus:ring-1 focus:ring-violet-500 transition-colors;
+  @apply w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors;
 }
 
+/* Card */
 .card {
-  @apply bg-slate-900 border border-slate-800 rounded-xl p-4;
+  @apply bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl;
+}
+
+/* Difficulty badges */
+.badge-easy {
+  @apply text-xs font-semibold px-3 py-1 rounded-full bg-emerald-900/50 text-emerald-400 border border-emerald-800 shadow-lg shadow-emerald-900/30;
+}
+.badge-medium {
+  @apply text-xs font-semibold px-3 py-1 rounded-full bg-amber-900/50 text-amber-400 border border-amber-800 shadow-lg shadow-amber-900/30;
+}
+.badge-hard {
+  @apply text-xs font-semibold px-3 py-1 rounded-full bg-red-900/50 text-red-400 border border-red-800 shadow-lg shadow-red-900/30;
+}
+
+/* SQL editor */
+.sql-editor {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  tab-size: 2;
+}
+
+/* Result table */
+.result-table {
+  @apply w-full text-sm border-collapse;
+}
+.result-table th {
+  @apply bg-slate-800 text-slate-300 font-semibold px-3 py-2 text-left border border-slate-700 whitespace-nowrap;
+}
+.result-table td {
+  @apply px-3 py-2 border border-slate-800 text-slate-200 font-mono text-xs;
+}
+.result-table tr:nth-child(even) td {
+  @apply bg-slate-900/50;
+}
+.result-table tr:hover td {
+  @apply bg-indigo-900/20;
 }
 
 /* Scrollbar */
@@ -53,3 +106,42 @@ body {
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+/* AI chat bubble */
+.chat-bubble-user {
+  @apply bg-indigo-600/20 border border-indigo-700/40 rounded-2xl rounded-tr-sm px-4 py-3 text-slate-200 text-sm;
+}
+.chat-bubble-ai {
+  @apply bg-slate-800/60 border border-slate-700/40 rounded-2xl rounded-tl-sm px-4 py-3 text-slate-200 text-sm;
+}
+
+/* Neon glow on focus */
+.neon-focus:focus {
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+}
+
+/* Animated gradient background blob */
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+}
+
+.blob {
+  animation: blob 7s infinite;
+}
+.blob-delay {
+  animation: blob 7s infinite 2s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blob, .blob-delay {
+    animation: none;
+  }
+}
+
+/* Code syntax highlight helpers */
+.sql-keyword { color: #818cf8; font-weight: 600; }
+.sql-string { color: #34d399; }
+.sql-number { color: #fb923c; }
+.sql-comment { color: #64748b; font-style: italic; }
