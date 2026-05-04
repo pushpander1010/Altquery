@@ -1,13 +1,13 @@
 import { Question } from './questions';
 
-// Auto-generated 1000+ SQL practice questions
+// Auto-generated 1000+ SQL practice questions with enhanced descriptions
 export const EXTENDED_QUESTIONS: Question[] = [
   {
     "id": "q1",
     "title": "Select All from Employees #1",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -35,7 +35,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #2",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -63,7 +63,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #3",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -91,7 +91,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #4",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -119,7 +119,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #5",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -147,7 +147,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #6",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -175,7 +175,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #7",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -203,7 +203,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #8",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -231,7 +231,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #9",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -259,7 +259,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #10",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -287,7 +287,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #11",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -315,7 +315,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #12",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -343,7 +343,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #13",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -371,7 +371,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #14",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -399,7 +399,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #15",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -427,7 +427,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #16",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -455,7 +455,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #17",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -483,7 +483,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #18",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -511,7 +511,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #19",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -539,7 +539,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #20",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -567,7 +567,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #21",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -595,7 +595,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #22",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -623,7 +623,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #23",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -651,7 +651,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #24",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -679,7 +679,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #25",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -707,7 +707,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #26",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -735,7 +735,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #27",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -763,7 +763,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #28",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -791,7 +791,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #29",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -819,7 +819,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #30",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -847,7 +847,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #31",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -875,7 +875,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #32",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -903,7 +903,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #33",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -931,7 +931,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #34",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -959,7 +959,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #35",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -987,7 +987,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #36",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1015,7 +1015,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #37",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1043,7 +1043,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #38",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1071,7 +1071,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #39",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1099,7 +1099,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #40",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1127,7 +1127,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #41",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1155,7 +1155,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #42",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1183,7 +1183,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #43",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1211,7 +1211,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #44",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1239,7 +1239,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #45",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1267,7 +1267,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #46",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1295,7 +1295,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #47",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1323,7 +1323,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #48",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1351,7 +1351,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #49",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1379,7 +1379,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #50",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1407,7 +1407,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #51",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1435,7 +1435,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #52",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1463,7 +1463,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #53",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1491,7 +1491,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #54",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1519,7 +1519,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #55",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1547,7 +1547,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #56",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1575,7 +1575,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #57",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1603,7 +1603,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #58",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1631,7 +1631,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #59",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1659,7 +1659,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #60",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1687,7 +1687,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #61",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1715,7 +1715,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #62",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1743,7 +1743,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #63",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1771,7 +1771,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #64",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1799,7 +1799,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #65",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1827,7 +1827,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #66",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1855,7 +1855,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #67",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1883,7 +1883,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #68",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1911,7 +1911,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #69",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1939,7 +1939,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #70",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1967,7 +1967,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #71",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -1995,7 +1995,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #72",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2023,7 +2023,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #73",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2051,7 +2051,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #74",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2079,7 +2079,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #75",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2107,7 +2107,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #76",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2135,7 +2135,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #77",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2163,7 +2163,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #78",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2191,7 +2191,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #79",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2219,7 +2219,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #80",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2247,7 +2247,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #81",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2275,7 +2275,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #82",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2303,7 +2303,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #83",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2331,7 +2331,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #84",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2359,7 +2359,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #85",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2387,7 +2387,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #86",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2415,7 +2415,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #87",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2443,7 +2443,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #88",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2471,7 +2471,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #89",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2499,7 +2499,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #90",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2527,7 +2527,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Employees #91",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the employees table.",
+    "description": "Write a query to select all columns from the employees table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2555,7 +2555,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Products #92",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the products table.",
+    "description": "Write a query to select all columns from the products table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2583,7 +2583,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Customers #93",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the customers table.",
+    "description": "Write a query to select all columns from the customers table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2611,7 +2611,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Orders #94",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the orders table.",
+    "description": "Write a query to select all columns from the orders table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2639,7 +2639,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Students #95",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the students table.",
+    "description": "Write a query to select all columns from the students table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2667,7 +2667,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Books #96",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the books table.",
+    "description": "Write a query to select all columns from the books table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2695,7 +2695,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Movies #97",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the movies table.",
+    "description": "Write a query to select all columns from the movies table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2723,7 +2723,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Songs #98",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the songs table.",
+    "description": "Write a query to select all columns from the songs table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2751,7 +2751,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Cities #99",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the cities table.",
+    "description": "Write a query to select all columns from the cities table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2779,7 +2779,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Select All from Countries #100",
     "difficulty": "easy",
     "topic": "SELECT Basics",
-    "description": "Write a query to select all columns from the countries table.",
+    "description": "Write a query to select all columns from the countries table. This is a fundamental SQL operation. The asterisk (*) is a wildcard that represents all columns in the table. Your result should show every row and every column from the table.",
     "hint": "Use SELECT * to select all columns",
     "schema": [
       {
@@ -2807,7 +2807,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #1",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -2835,7 +2835,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #2",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -2863,7 +2863,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #3",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -2891,7 +2891,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #4",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -2919,7 +2919,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #5",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -2947,7 +2947,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #6",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -2975,7 +2975,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #7",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -3003,7 +3003,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #8",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -3031,7 +3031,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #9",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -3059,7 +3059,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #10",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -3087,7 +3087,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #11",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -3115,7 +3115,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #12",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -3143,7 +3143,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #13",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -3171,7 +3171,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #14",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -3199,7 +3199,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #15",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -3227,7 +3227,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #16",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -3255,7 +3255,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #17",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -3283,7 +3283,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #18",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -3311,7 +3311,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #19",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -3339,7 +3339,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #20",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -3367,7 +3367,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #21",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -3395,7 +3395,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #22",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -3423,7 +3423,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #23",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -3451,7 +3451,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #24",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -3479,7 +3479,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #25",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -3507,7 +3507,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #26",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -3535,7 +3535,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #27",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -3563,7 +3563,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #28",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -3591,7 +3591,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #29",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -3619,7 +3619,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #30",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -3647,7 +3647,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #31",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -3675,7 +3675,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #32",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -3703,7 +3703,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #33",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -3731,7 +3731,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #34",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -3759,7 +3759,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #35",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -3787,7 +3787,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #36",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -3815,7 +3815,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #37",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -3843,7 +3843,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #38",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -3871,7 +3871,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #39",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -3899,7 +3899,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #40",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -3927,7 +3927,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #41",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -3955,7 +3955,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #42",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -3983,7 +3983,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #43",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -4011,7 +4011,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #44",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -4039,7 +4039,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #45",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -4067,7 +4067,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #46",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -4095,7 +4095,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #47",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -4123,7 +4123,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #48",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -4151,7 +4151,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #49",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -4179,7 +4179,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #50",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -4207,7 +4207,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #51",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -4235,7 +4235,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #52",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -4263,7 +4263,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #53",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -4291,7 +4291,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #54",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -4319,7 +4319,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #55",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -4347,7 +4347,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #56",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -4375,7 +4375,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #57",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -4403,7 +4403,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #58",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -4431,7 +4431,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #59",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -4459,7 +4459,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #60",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -4487,7 +4487,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #61",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -4515,7 +4515,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #62",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -4543,7 +4543,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #63",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -4571,7 +4571,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #64",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -4599,7 +4599,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #65",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -4627,7 +4627,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #66",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -4655,7 +4655,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #67",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -4683,7 +4683,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #68",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -4711,7 +4711,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #69",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -4739,7 +4739,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #70",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -4767,7 +4767,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #71",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -4795,7 +4795,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #72",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -4823,7 +4823,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #73",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -4851,7 +4851,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #74",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -4879,7 +4879,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #75",
     "difficulty": "easy",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. You'll need to filter the data to show only rows that meet certain criteria. Use comparison operators like =, >, <, >=, <=, or != as needed.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -4907,7 +4907,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #76",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -4935,7 +4935,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #77",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -4963,7 +4963,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #78",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -4991,7 +4991,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #79",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -5019,7 +5019,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #80",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -5047,7 +5047,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #81",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -5075,7 +5075,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #82",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -5103,7 +5103,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #83",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -5131,7 +5131,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #84",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -5159,7 +5159,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #85",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -5187,7 +5187,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #86",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -5215,7 +5215,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #87",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -5243,7 +5243,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #88",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -5271,7 +5271,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #89",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -5299,7 +5299,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #90",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -5327,7 +5327,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #91",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -5355,7 +5355,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #92",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -5383,7 +5383,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #93",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -5411,7 +5411,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #94",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -5439,7 +5439,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #95",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -5467,7 +5467,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #96",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -5495,7 +5495,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #97",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -5523,7 +5523,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #98",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -5551,7 +5551,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #99",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -5579,7 +5579,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #100",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -5607,7 +5607,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #101",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -5635,7 +5635,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #102",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -5663,7 +5663,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #103",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -5691,7 +5691,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #104",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -5719,7 +5719,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #105",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -5747,7 +5747,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #106",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -5775,7 +5775,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #107",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -5803,7 +5803,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #108",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -5831,7 +5831,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #109",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -5859,7 +5859,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #110",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -5887,7 +5887,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #111",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -5915,7 +5915,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #112",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -5943,7 +5943,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #113",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -5971,7 +5971,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #114",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -5999,7 +5999,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #115",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -6027,7 +6027,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #116",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -6055,7 +6055,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #117",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -6083,7 +6083,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #118",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -6111,7 +6111,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #119",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -6139,7 +6139,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #120",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -6167,7 +6167,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #121",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -6195,7 +6195,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #122",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -6223,7 +6223,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #123",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -6251,7 +6251,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #124",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -6279,7 +6279,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #125",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -6307,7 +6307,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #126",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -6335,7 +6335,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #127",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -6363,7 +6363,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #128",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -6391,7 +6391,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #129",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -6419,7 +6419,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #130",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -6447,7 +6447,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #131",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -6475,7 +6475,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #132",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -6503,7 +6503,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #133",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -6531,7 +6531,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #134",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -6559,7 +6559,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #135",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -6587,7 +6587,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #136",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -6615,7 +6615,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #137",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -6643,7 +6643,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #138",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -6671,7 +6671,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #139",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -6699,7 +6699,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #140",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -6727,7 +6727,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #141",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -6755,7 +6755,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #142",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -6783,7 +6783,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #143",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -6811,7 +6811,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #144",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -6839,7 +6839,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value > 100 #145",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value > 100.",
+    "description": "Select products where value > 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with > operator",
     "schema": [
       {
@@ -6867,7 +6867,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value < 200 #146",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value < 200.",
+    "description": "Select products where value < 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with < operator",
     "schema": [
       {
@@ -6895,7 +6895,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value >= 150 #147",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value >= 150.",
+    "description": "Select products where value >= 150. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with >= operator",
     "schema": [
       {
@@ -6923,7 +6923,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value <= 250 #148",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value <= 250.",
+    "description": "Select products where value <= 250. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with <= operator",
     "schema": [
       {
@@ -6951,7 +6951,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value = 200 #149",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value = 200.",
+    "description": "Select products where value = 200. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with = operator",
     "schema": [
       {
@@ -6979,7 +6979,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Filter Products Where Value != 100 #150",
     "difficulty": "medium",
     "topic": "Filtering",
-    "description": "Select products where value != 100.",
+    "description": "Select products where value != 100. This may involve multiple conditions using AND, OR, or NOT operators. You might also need to use operators like LIKE, IN, BETWEEN, or IS NULL.",
     "hint": "Use WHERE clause with != operator",
     "schema": [
       {
@@ -7007,7 +7007,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #1",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -7033,7 +7033,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #2",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -7059,7 +7059,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #3",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -7085,7 +7085,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #4",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -7111,7 +7111,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #5",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -7137,7 +7137,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #6",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -7163,7 +7163,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #7",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -7189,7 +7189,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #8",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -7215,7 +7215,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #9",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -7241,7 +7241,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #10",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -7267,7 +7267,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #11",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -7293,7 +7293,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #12",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -7319,7 +7319,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #13",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -7345,7 +7345,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #14",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -7371,7 +7371,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #15",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -7397,7 +7397,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #16",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -7423,7 +7423,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #17",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -7449,7 +7449,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #18",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -7475,7 +7475,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #19",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -7501,7 +7501,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #20",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -7527,7 +7527,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #21",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -7553,7 +7553,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #22",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -7579,7 +7579,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #23",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -7605,7 +7605,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #24",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -7631,7 +7631,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #25",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -7657,7 +7657,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #26",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -7683,7 +7683,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #27",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -7709,7 +7709,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #28",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -7735,7 +7735,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #29",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -7761,7 +7761,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #30",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -7787,7 +7787,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #31",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -7813,7 +7813,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #32",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -7839,7 +7839,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #33",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -7865,7 +7865,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #34",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -7891,7 +7891,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #35",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -7917,7 +7917,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #36",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -7943,7 +7943,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #37",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -7969,7 +7969,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #38",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -7995,7 +7995,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #39",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -8021,7 +8021,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #40",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -8047,7 +8047,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #41",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -8073,7 +8073,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #42",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -8099,7 +8099,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #43",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -8125,7 +8125,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #44",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -8151,7 +8151,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #45",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -8177,7 +8177,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #46",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). COUNT() returns the number of rows. Use COUNT(*) to count all rows, or COUNT(column_name) to count non-NULL values in a specific column.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -8203,7 +8203,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #47",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). SUM() adds up all numeric values in a column. Make sure you're summing the correct column and that it contains numeric data.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -8229,7 +8229,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #48",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). AVG() calculates the average (mean) of numeric values. It automatically excludes NULL values from the calculation.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -8255,7 +8255,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #49",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -8281,7 +8281,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #50",
     "difficulty": "easy",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). MIN() and MAX() find the smallest and largest values respectively. They work with both numeric and text data.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -8307,7 +8307,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #51",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -8333,7 +8333,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #52",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -8359,7 +8359,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #53",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -8385,7 +8385,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #54",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -8411,7 +8411,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #55",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -8437,7 +8437,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #56",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -8463,7 +8463,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #57",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -8489,7 +8489,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #58",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -8515,7 +8515,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #59",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -8541,7 +8541,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #60",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -8567,7 +8567,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #61",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -8593,7 +8593,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #62",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -8619,7 +8619,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #63",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -8645,7 +8645,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #64",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -8671,7 +8671,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #65",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -8697,7 +8697,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #66",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -8723,7 +8723,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #67",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -8749,7 +8749,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #68",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -8775,7 +8775,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #69",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -8801,7 +8801,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #70",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -8827,7 +8827,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Count #71",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the count using COUNT(*).",
+    "description": "Calculate the count using COUNT(*). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use COUNT(*) function",
     "schema": [
       {
@@ -8853,7 +8853,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Total #72",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the total using SUM(value).",
+    "description": "Calculate the total using SUM(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use SUM(value) function",
     "schema": [
       {
@@ -8879,7 +8879,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Average #73",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the average using AVG(value).",
+    "description": "Calculate the average using AVG(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use AVG(value) function",
     "schema": [
       {
@@ -8905,7 +8905,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Minimum #74",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the minimum using MIN(value).",
+    "description": "Calculate the minimum using MIN(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MIN(value) function",
     "schema": [
       {
@@ -8931,7 +8931,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Calculate Maximum #75",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate the maximum using MAX(value).",
+    "description": "Calculate the maximum using MAX(value). You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use MAX(value) function",
     "schema": [
       {
@@ -8957,7 +8957,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #76",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -8985,7 +8985,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #77",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9013,7 +9013,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #78",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9041,7 +9041,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #79",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9069,7 +9069,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #80",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9097,7 +9097,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #81",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9125,7 +9125,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #82",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9153,7 +9153,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #83",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9181,7 +9181,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #84",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9209,7 +9209,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #85",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9237,7 +9237,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #86",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9265,7 +9265,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #87",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9293,7 +9293,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #88",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9321,7 +9321,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #89",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9349,7 +9349,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #90",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9377,7 +9377,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #91",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9405,7 +9405,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #92",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9433,7 +9433,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #93",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9461,7 +9461,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #94",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9489,7 +9489,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #95",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9517,7 +9517,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #96",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9545,7 +9545,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #97",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9573,7 +9573,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #98",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9601,7 +9601,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #99",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9629,7 +9629,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #100",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9657,7 +9657,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #101",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9685,7 +9685,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #102",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9713,7 +9713,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #103",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9741,7 +9741,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #104",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9769,7 +9769,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #105",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9797,7 +9797,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #106",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9825,7 +9825,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #107",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9853,7 +9853,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #108",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9881,7 +9881,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #109",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9909,7 +9909,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #110",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9937,7 +9937,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #111",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9965,7 +9965,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #112",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -9993,7 +9993,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #113",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10021,7 +10021,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #114",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10049,7 +10049,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #115",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10077,7 +10077,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #116",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10105,7 +10105,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #117",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10133,7 +10133,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #118",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10161,7 +10161,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #119",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10189,7 +10189,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #120",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10217,7 +10217,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #121",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10245,7 +10245,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #122",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10273,7 +10273,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #123",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10301,7 +10301,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #124",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10329,7 +10329,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #125",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10357,7 +10357,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #126",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10385,7 +10385,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #127",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10413,7 +10413,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #128",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10441,7 +10441,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #129",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10469,7 +10469,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #130",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10497,7 +10497,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #131",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10525,7 +10525,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #132",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10553,7 +10553,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #133",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10581,7 +10581,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #134",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10609,7 +10609,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #135",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10637,7 +10637,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #136",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10665,7 +10665,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #137",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10693,7 +10693,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #138",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10721,7 +10721,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #139",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10749,7 +10749,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #140",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10777,7 +10777,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #141",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10805,7 +10805,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #142",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10833,7 +10833,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #143",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10861,7 +10861,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #144",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10889,7 +10889,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #145",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10917,7 +10917,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Count #146",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate count for each category.",
+    "description": "Calculate count for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10945,7 +10945,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Total #147",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate total for each category.",
+    "description": "Calculate total for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -10973,7 +10973,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Average #148",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate average for each category.",
+    "description": "Calculate average for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -11001,7 +11001,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Minimum #149",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate minimum for each category.",
+    "description": "Calculate minimum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -11029,7 +11029,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Group by Category with Maximum #150",
     "difficulty": "medium",
     "topic": "Aggregation",
-    "description": "Calculate maximum for each category.",
+    "description": "Calculate maximum for each category. You may need to use GROUP BY to calculate aggregates for different groups of data. Remember that when using GROUP BY, all non-aggregate columns in SELECT must be in the GROUP BY clause.",
     "hint": "Use GROUP BY with aggregation function",
     "schema": [
       {
@@ -11057,7 +11057,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #1",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11092,7 +11092,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #2",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11127,7 +11127,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #3",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11162,7 +11162,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #4",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11197,7 +11197,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #5",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11232,7 +11232,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #6",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11267,7 +11267,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #7",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11302,7 +11302,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #8",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11337,7 +11337,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #9",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11372,7 +11372,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #10",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11407,7 +11407,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #11",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11442,7 +11442,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #12",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11477,7 +11477,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #13",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11512,7 +11512,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #14",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11547,7 +11547,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #15",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11582,7 +11582,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #16",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11617,7 +11617,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #17",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11652,7 +11652,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #18",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11687,7 +11687,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #19",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11722,7 +11722,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #20",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11757,7 +11757,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #21",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11792,7 +11792,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #22",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11827,7 +11827,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #23",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11862,7 +11862,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #24",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11897,7 +11897,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #25",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11932,7 +11932,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #26",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -11967,7 +11967,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #27",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12002,7 +12002,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #28",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12037,7 +12037,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #29",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12072,7 +12072,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #30",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12107,7 +12107,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #31",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12142,7 +12142,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #32",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12177,7 +12177,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #33",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12212,7 +12212,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #34",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12247,7 +12247,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #35",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12282,7 +12282,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #36",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12317,7 +12317,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #37",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12352,7 +12352,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #38",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12387,7 +12387,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #39",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12422,7 +12422,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #40",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12457,7 +12457,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #41",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12492,7 +12492,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #42",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12527,7 +12527,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #43",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12562,7 +12562,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #44",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12597,7 +12597,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #45",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12632,7 +12632,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #46",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12667,7 +12667,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #47",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12702,7 +12702,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #48",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12737,7 +12737,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #49",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12772,7 +12772,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #50",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12807,7 +12807,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #51",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12842,7 +12842,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #52",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12877,7 +12877,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #53",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12912,7 +12912,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #54",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12947,7 +12947,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #55",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -12982,7 +12982,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #56",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13017,7 +13017,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #57",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13052,7 +13052,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #58",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13087,7 +13087,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #59",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13122,7 +13122,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #60",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13157,7 +13157,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #61",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13192,7 +13192,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #62",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13227,7 +13227,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #63",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13262,7 +13262,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #64",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13297,7 +13297,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #65",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13332,7 +13332,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #66",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13367,7 +13367,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #67",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13402,7 +13402,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #68",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13437,7 +13437,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #69",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13472,7 +13472,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #70",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13507,7 +13507,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #71",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13542,7 +13542,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #72",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13577,7 +13577,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #73",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13612,7 +13612,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #74",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13647,7 +13647,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #75",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13682,7 +13682,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #76",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13717,7 +13717,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #77",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13752,7 +13752,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #78",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13787,7 +13787,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #79",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13822,7 +13822,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #80",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13857,7 +13857,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #81",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13892,7 +13892,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #82",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13927,7 +13927,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #83",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13962,7 +13962,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #84",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -13997,7 +13997,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #85",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14032,7 +14032,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #86",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14067,7 +14067,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #87",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14102,7 +14102,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #88",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14137,7 +14137,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #89",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14172,7 +14172,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #90",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14207,7 +14207,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #91",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14242,7 +14242,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #92",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14277,7 +14277,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #93",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14312,7 +14312,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #94",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14347,7 +14347,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #95",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14382,7 +14382,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #96",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14417,7 +14417,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #97",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14452,7 +14452,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #98",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14487,7 +14487,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #99",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14522,7 +14522,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #100",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14557,7 +14557,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #101",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14592,7 +14592,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #102",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14627,7 +14627,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #103",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14662,7 +14662,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #104",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14697,7 +14697,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #105",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14732,7 +14732,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #106",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14767,7 +14767,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #107",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14802,7 +14802,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #108",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14837,7 +14837,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #109",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14872,7 +14872,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #110",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14907,7 +14907,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #111",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14942,7 +14942,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #112",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -14977,7 +14977,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #113",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15012,7 +15012,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #114",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15047,7 +15047,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #115",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15082,7 +15082,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #116",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15117,7 +15117,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #117",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15152,7 +15152,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #118",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15187,7 +15187,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #119",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15222,7 +15222,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #120",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15257,7 +15257,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #121",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15292,7 +15292,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #122",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15327,7 +15327,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #123",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15362,7 +15362,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #124",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15397,7 +15397,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #125",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15432,7 +15432,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #126",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15467,7 +15467,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #127",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15502,7 +15502,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #128",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15537,7 +15537,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #129",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15572,7 +15572,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #130",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15607,7 +15607,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #131",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15642,7 +15642,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #132",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15677,7 +15677,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #133",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15712,7 +15712,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #134",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15747,7 +15747,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #135",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15782,7 +15782,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #136",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15817,7 +15817,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #137",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15852,7 +15852,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #138",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15887,7 +15887,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #139",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15922,7 +15922,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #140",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15957,7 +15957,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #141",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -15992,7 +15992,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #142",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16027,7 +16027,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #143",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16062,7 +16062,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #144",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16097,7 +16097,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #145",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16132,7 +16132,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #146",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16167,7 +16167,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #147",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16202,7 +16202,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #148",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16237,7 +16237,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #149",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16272,7 +16272,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #150",
     "difficulty": "medium",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. This involves joining multiple tables or using different join types (LEFT JOIN, RIGHT JOIN). Pay attention to which join type is needed based on whether you want to include unmatched rows.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16307,7 +16307,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #151",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16342,7 +16342,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #152",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16377,7 +16377,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #153",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16412,7 +16412,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #154",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16447,7 +16447,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #155",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16482,7 +16482,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #156",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16517,7 +16517,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #157",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16552,7 +16552,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #158",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16587,7 +16587,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #159",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16622,7 +16622,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #160",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16657,7 +16657,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #161",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16692,7 +16692,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #162",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16727,7 +16727,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #163",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16762,7 +16762,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #164",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16797,7 +16797,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #165",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16832,7 +16832,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #166",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16867,7 +16867,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #167",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16902,7 +16902,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #168",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16937,7 +16937,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #169",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -16972,7 +16972,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #170",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17007,7 +17007,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #171",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17042,7 +17042,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #172",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17077,7 +17077,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #173",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17112,7 +17112,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #174",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17147,7 +17147,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #175",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17182,7 +17182,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #176",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17217,7 +17217,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #177",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17252,7 +17252,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #178",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17287,7 +17287,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #179",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17322,7 +17322,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #180",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17357,7 +17357,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #181",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17392,7 +17392,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #182",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17427,7 +17427,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #183",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17462,7 +17462,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #184",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17497,7 +17497,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #185",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17532,7 +17532,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #186",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17567,7 +17567,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #187",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17602,7 +17602,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #188",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17637,7 +17637,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #189",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17672,7 +17672,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #190",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17707,7 +17707,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #191",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17742,7 +17742,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #192",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17777,7 +17777,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #193",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17812,7 +17812,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #194",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17847,7 +17847,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #195",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17882,7 +17882,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #196",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17917,7 +17917,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #197",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17952,7 +17952,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #198",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -17987,7 +17987,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #199",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18022,7 +18022,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #200",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18057,7 +18057,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #201",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18092,7 +18092,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #202",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18127,7 +18127,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #203",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18162,7 +18162,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #204",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18197,7 +18197,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #205",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18232,7 +18232,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #206",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18267,7 +18267,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #207",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18302,7 +18302,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #208",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18337,7 +18337,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #209",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18372,7 +18372,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #210",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18407,7 +18407,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #211",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18442,7 +18442,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #212",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18477,7 +18477,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #213",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18512,7 +18512,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #214",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18547,7 +18547,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #215",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18582,7 +18582,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #216",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18617,7 +18617,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #217",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18652,7 +18652,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #218",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18687,7 +18687,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #219",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18722,7 +18722,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #220",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18757,7 +18757,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #221",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18792,7 +18792,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #222",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18827,7 +18827,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #223",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18862,7 +18862,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #224",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18897,7 +18897,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #225",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18932,7 +18932,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #226",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -18967,7 +18967,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #227",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19002,7 +19002,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #228",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19037,7 +19037,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #229",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19072,7 +19072,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #230",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19107,7 +19107,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #231",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19142,7 +19142,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #232",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19177,7 +19177,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #233",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19212,7 +19212,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #234",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19247,7 +19247,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #235",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19282,7 +19282,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #236",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19317,7 +19317,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #237",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19352,7 +19352,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #238",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19387,7 +19387,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #239",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19422,7 +19422,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #240",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19457,7 +19457,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #241",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19492,7 +19492,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #242",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19527,7 +19527,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #243",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19562,7 +19562,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #244",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19597,7 +19597,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #245",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19632,7 +19632,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join customers with orders #246",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show customer_name with their order_amount.",
+    "description": "Show customer_name with their order_amount. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19667,7 +19667,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join employees with departments #247",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show employee_name with their dept_name.",
+    "description": "Show employee_name with their dept_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19702,7 +19702,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join students with courses #248",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show student_name with their course_name.",
+    "description": "Show student_name with their course_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19737,7 +19737,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join products with categories #249",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show product_name with their category_name.",
+    "description": "Show product_name with their category_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19772,7 +19772,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Join books with authors #250",
     "difficulty": "hard",
     "topic": "JOINs",
-    "description": "Show book_title with their author_name.",
+    "description": "Show book_title with their author_name. Complex joins with multiple tables, self-joins, or joins combined with aggregation and filtering. Plan your join strategy carefully and consider the relationships between tables.",
     "hint": "Use INNER JOIN with ON clause",
     "schema": [
       {
@@ -19807,7 +19807,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #1",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -19835,7 +19835,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #2",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -19863,7 +19863,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #3",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -19891,7 +19891,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #4",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -19919,7 +19919,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #5",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -19947,7 +19947,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #6",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -19975,7 +19975,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #7",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20003,7 +20003,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #8",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20031,7 +20031,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #9",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20059,7 +20059,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #10",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20087,7 +20087,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #11",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20115,7 +20115,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #12",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20143,7 +20143,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #13",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20171,7 +20171,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #14",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20199,7 +20199,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #15",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20227,7 +20227,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #16",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20255,7 +20255,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #17",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20283,7 +20283,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #18",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20311,7 +20311,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #19",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20339,7 +20339,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #20",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20367,7 +20367,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #21",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20395,7 +20395,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #22",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20423,7 +20423,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #23",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20451,7 +20451,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #24",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20479,7 +20479,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #25",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20507,7 +20507,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #26",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20535,7 +20535,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #27",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20563,7 +20563,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #28",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20591,7 +20591,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #29",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20619,7 +20619,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #30",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20647,7 +20647,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #31",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20675,7 +20675,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #32",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20703,7 +20703,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #33",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20731,7 +20731,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #34",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20759,7 +20759,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #35",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20787,7 +20787,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #36",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20815,7 +20815,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #37",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20843,7 +20843,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #38",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20871,7 +20871,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #39",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20899,7 +20899,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #40",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20927,7 +20927,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #41",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20955,7 +20955,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #42",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -20983,7 +20983,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #43",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21011,7 +21011,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #44",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21039,7 +21039,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #45",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21067,7 +21067,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #46",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21095,7 +21095,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #47",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21123,7 +21123,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #48",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21151,7 +21151,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #49",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21179,7 +21179,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #50",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21207,7 +21207,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #51",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21235,7 +21235,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #52",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21263,7 +21263,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #53",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21291,7 +21291,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #54",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21319,7 +21319,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #55",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21347,7 +21347,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #56",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21375,7 +21375,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #57",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21403,7 +21403,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #58",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21431,7 +21431,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #59",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21459,7 +21459,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #60",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21487,7 +21487,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #61",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21515,7 +21515,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #62",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21543,7 +21543,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #63",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21571,7 +21571,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #64",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21599,7 +21599,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #65",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21627,7 +21627,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #66",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21655,7 +21655,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #67",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21683,7 +21683,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #68",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21711,7 +21711,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #69",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21739,7 +21739,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #70",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21767,7 +21767,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #71",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21795,7 +21795,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #72",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21823,7 +21823,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #73",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21851,7 +21851,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #74",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21879,7 +21879,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #75",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21907,7 +21907,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #76",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21935,7 +21935,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #77",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21963,7 +21963,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #78",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -21991,7 +21991,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #79",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22019,7 +22019,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #80",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22047,7 +22047,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #81",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22075,7 +22075,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #82",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22103,7 +22103,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #83",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22131,7 +22131,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #84",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22159,7 +22159,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #85",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22187,7 +22187,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #86",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22215,7 +22215,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #87",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22243,7 +22243,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #88",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22271,7 +22271,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #89",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22299,7 +22299,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #90",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22327,7 +22327,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #91",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22355,7 +22355,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #92",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22383,7 +22383,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #93",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22411,7 +22411,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #94",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22439,7 +22439,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #95",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22467,7 +22467,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #96",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22495,7 +22495,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #97",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22523,7 +22523,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #98",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22551,7 +22551,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #99",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22579,7 +22579,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Subquery - Above Average #100",
     "difficulty": "hard",
     "topic": "Subqueries",
-    "description": "Find records where value is above the average.",
+    "description": "Find records where value is above the average. Complex subqueries with multiple levels of nesting, EXISTS/NOT EXISTS, or subqueries in different clauses (SELECT, FROM, WHERE). Break down the problem step by step.",
     "hint": "Use a subquery with AVG() in WHERE clause",
     "schema": [
       {
@@ -22607,7 +22607,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #1",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22635,7 +22635,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #2",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22663,7 +22663,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #3",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22691,7 +22691,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #4",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22719,7 +22719,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #5",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22747,7 +22747,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #6",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22775,7 +22775,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #7",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22803,7 +22803,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #8",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22831,7 +22831,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #9",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22859,7 +22859,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #10",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22887,7 +22887,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #11",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22915,7 +22915,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #12",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22943,7 +22943,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #13",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22971,7 +22971,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #14",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -22999,7 +22999,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #15",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23027,7 +23027,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #16",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23055,7 +23055,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #17",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23083,7 +23083,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #18",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23111,7 +23111,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #19",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23139,7 +23139,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #20",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23167,7 +23167,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #21",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23195,7 +23195,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #22",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23223,7 +23223,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #23",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23251,7 +23251,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #24",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23279,7 +23279,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #25",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23307,7 +23307,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #26",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23335,7 +23335,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #27",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23363,7 +23363,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #28",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23391,7 +23391,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #29",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23419,7 +23419,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #30",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23447,7 +23447,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #31",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23475,7 +23475,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #32",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23503,7 +23503,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #33",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23531,7 +23531,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #34",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23559,7 +23559,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #35",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23587,7 +23587,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #36",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23615,7 +23615,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #37",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23643,7 +23643,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #38",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23671,7 +23671,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #39",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23699,7 +23699,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #40",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23727,7 +23727,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #41",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23755,7 +23755,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #42",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23783,7 +23783,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #43",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23811,7 +23811,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #44",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23839,7 +23839,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #45",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23867,7 +23867,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #46",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23895,7 +23895,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #47",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23923,7 +23923,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #48",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23951,7 +23951,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #49",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -23979,7 +23979,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #50",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24007,7 +24007,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #51",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24035,7 +24035,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #52",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24063,7 +24063,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #53",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24091,7 +24091,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #54",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24119,7 +24119,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #55",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24147,7 +24147,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #56",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24175,7 +24175,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #57",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24203,7 +24203,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #58",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24231,7 +24231,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #59",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24259,7 +24259,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #60",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24287,7 +24287,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #61",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24315,7 +24315,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #62",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24343,7 +24343,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #63",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24371,7 +24371,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #64",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24399,7 +24399,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #65",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24427,7 +24427,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #66",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24455,7 +24455,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #67",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24483,7 +24483,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #68",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24511,7 +24511,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #69",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24539,7 +24539,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #70",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24567,7 +24567,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #71",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24595,7 +24595,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #72",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24623,7 +24623,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #73",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24651,7 +24651,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #74",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24679,7 +24679,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #75",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24707,7 +24707,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #76",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24735,7 +24735,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #77",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24763,7 +24763,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #78",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24791,7 +24791,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #79",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24819,7 +24819,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #80",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24847,7 +24847,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #81",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24875,7 +24875,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #82",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24903,7 +24903,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #83",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24931,7 +24931,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #84",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24959,7 +24959,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #85",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -24987,7 +24987,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #86",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25015,7 +25015,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #87",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25043,7 +25043,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #88",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25071,7 +25071,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #89",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25099,7 +25099,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #90",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25127,7 +25127,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #91",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25155,7 +25155,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #92",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25183,7 +25183,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #93",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25211,7 +25211,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #94",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25239,7 +25239,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #95",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25267,7 +25267,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #96",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25295,7 +25295,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "ROW_NUMBER - Ranking #97",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use ROW_NUMBER() to rank employees by salary.",
+    "description": "Use ROW_NUMBER() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use ROW_NUMBER() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25323,7 +25323,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "RANK - Ranking #98",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use RANK() to rank employees by salary.",
+    "description": "Use RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25351,7 +25351,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "DENSE_RANK - Ranking #99",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use DENSE_RANK() to rank employees by salary.",
+    "description": "Use DENSE_RANK() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use DENSE_RANK() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25379,7 +25379,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "NTILE - Ranking #100",
     "difficulty": "hard",
     "topic": "Window Functions",
-    "description": "Use NTILE() to rank employees by salary.",
+    "description": "Use NTILE() to rank employees by salary. Advanced window functions with complex partitioning, frame specifications, or multiple window functions. Consider the order of operations and window frame boundaries.",
     "hint": "Use NTILE() OVER (ORDER BY ...)",
     "schema": [
       {
@@ -25407,7 +25407,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #1",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -25432,7 +25432,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #2",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -25457,7 +25457,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #3",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -25483,7 +25483,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #4",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -25508,7 +25508,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #5",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -25533,7 +25533,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #6",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -25558,7 +25558,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #7",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -25583,7 +25583,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #8",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -25609,7 +25609,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #9",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -25634,7 +25634,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #10",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -25659,7 +25659,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #11",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -25684,7 +25684,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #12",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -25709,7 +25709,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #13",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -25735,7 +25735,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #14",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -25760,7 +25760,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #15",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -25785,7 +25785,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #16",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -25810,7 +25810,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #17",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -25835,7 +25835,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #18",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -25861,7 +25861,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #19",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -25886,7 +25886,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #20",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -25911,7 +25911,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #21",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -25936,7 +25936,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #22",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -25961,7 +25961,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #23",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -25987,7 +25987,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #24",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -26012,7 +26012,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #25",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -26037,7 +26037,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #26",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -26062,7 +26062,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #27",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -26087,7 +26087,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #28",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -26113,7 +26113,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #29",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -26138,7 +26138,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #30",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -26163,7 +26163,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #31",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -26188,7 +26188,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #32",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -26213,7 +26213,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #33",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -26239,7 +26239,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #34",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -26264,7 +26264,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #35",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -26289,7 +26289,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #36",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -26314,7 +26314,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #37",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -26339,7 +26339,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #38",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -26365,7 +26365,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #39",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -26390,7 +26390,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #40",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -26415,7 +26415,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #41",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -26440,7 +26440,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #42",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -26465,7 +26465,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #43",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -26491,7 +26491,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #44",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -26516,7 +26516,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #45",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -26541,7 +26541,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String UPPER #46",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use UPPER function on name column.",
+    "description": "Use UPPER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use UPPER() function",
     "schema": [
       {
@@ -26566,7 +26566,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LOWER #47",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LOWER function on name column.",
+    "description": "Use LOWER function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LOWER() function",
     "schema": [
       {
@@ -26591,7 +26591,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String LENGTH #48",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use LENGTH function on name column.",
+    "description": "Use LENGTH function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use LENGTH() function",
     "schema": [
       {
@@ -26617,7 +26617,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String SUBSTR #49",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use SUBSTR function on name column.",
+    "description": "Use SUBSTR function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use SUBSTR() function",
     "schema": [
       {
@@ -26642,7 +26642,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "String TRIM #50",
     "difficulty": "easy",
     "topic": "String Functions",
-    "description": "Use TRIM function on name column.",
+    "description": "Use TRIM function on name column. Use string functions to manipulate text data. UPPER() converts to uppercase, LOWER() to lowercase, LENGTH() returns character count, SUBSTR() extracts portions of text.",
     "hint": "Use TRIM() function",
     "schema": [
       {
@@ -26667,7 +26667,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #1",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26695,7 +26695,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #2",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26723,7 +26723,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #3",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26751,7 +26751,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #4",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26779,7 +26779,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #5",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26807,7 +26807,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #6",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26835,7 +26835,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #7",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26863,7 +26863,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #8",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26891,7 +26891,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #9",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26919,7 +26919,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #10",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26947,7 +26947,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #11",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -26975,7 +26975,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #12",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27003,7 +27003,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #13",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27031,7 +27031,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #14",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27059,7 +27059,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #15",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27087,7 +27087,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #16",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27115,7 +27115,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #17",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27143,7 +27143,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #18",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27171,7 +27171,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #19",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27199,7 +27199,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #20",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27227,7 +27227,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #21",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27255,7 +27255,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #22",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27283,7 +27283,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #23",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27311,7 +27311,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #24",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27339,7 +27339,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #25",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27367,7 +27367,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #26",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27395,7 +27395,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #27",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27423,7 +27423,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #28",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27451,7 +27451,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #29",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27479,7 +27479,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #30",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27507,7 +27507,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #31",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27535,7 +27535,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #32",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27563,7 +27563,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #33",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27591,7 +27591,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #34",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27619,7 +27619,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #35",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27647,7 +27647,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #36",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27675,7 +27675,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #37",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27703,7 +27703,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #38",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27731,7 +27731,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #39",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27759,7 +27759,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #40",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27787,7 +27787,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #41",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27815,7 +27815,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #42",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27843,7 +27843,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #43",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27871,7 +27871,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #44",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27899,7 +27899,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #45",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27927,7 +27927,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #46",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27955,7 +27955,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #47",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -27983,7 +27983,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #48",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -28011,7 +28011,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #49",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -28039,7 +28039,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CASE Statement - Categorize #50",
     "difficulty": "medium",
     "topic": "CASE Statements",
-    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100).",
+    "description": "Categorize values as High (>200), Medium (100-200), or Low (<100). Multiple WHEN conditions or CASE statements combined with other operations. The conditions are evaluated in order, so put more specific conditions first.",
     "hint": "Use CASE WHEN ... THEN ... ELSE ... END",
     "schema": [
       {
@@ -28067,7 +28067,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #1",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28096,7 +28096,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #2",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28125,7 +28125,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #3",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28154,7 +28154,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #4",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28183,7 +28183,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #5",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28212,7 +28212,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #6",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28241,7 +28241,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #7",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28270,7 +28270,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #8",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28299,7 +28299,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #9",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28328,7 +28328,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #10",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28357,7 +28357,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #11",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28386,7 +28386,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #12",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28415,7 +28415,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #13",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28444,7 +28444,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #14",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28473,7 +28473,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #15",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28502,7 +28502,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #16",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28531,7 +28531,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #17",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28560,7 +28560,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #18",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28589,7 +28589,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #19",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28618,7 +28618,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #20",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28647,7 +28647,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #21",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28676,7 +28676,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #22",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28705,7 +28705,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #23",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28734,7 +28734,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #24",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28763,7 +28763,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #25",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28792,7 +28792,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #26",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28821,7 +28821,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #27",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28850,7 +28850,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #28",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28879,7 +28879,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #29",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28908,7 +28908,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #30",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28937,7 +28937,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #31",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28966,7 +28966,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #32",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -28995,7 +28995,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #33",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29024,7 +29024,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #34",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29053,7 +29053,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #35",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29082,7 +29082,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #36",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29111,7 +29111,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #37",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29140,7 +29140,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #38",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29169,7 +29169,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #39",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29198,7 +29198,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #40",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29227,7 +29227,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #41",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29256,7 +29256,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #42",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29285,7 +29285,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #43",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29314,7 +29314,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #44",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29343,7 +29343,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #45",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29372,7 +29372,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #46",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29401,7 +29401,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #47",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29430,7 +29430,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #48",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29459,7 +29459,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #49",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29488,7 +29488,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "CTE - Common Table Expression #50",
     "difficulty": "hard",
     "topic": "CTEs",
-    "description": "Use a CTE to find employees with above-average salaries.",
+    "description": "Use a CTE to find employees with above-average salaries. Recursive CTEs or complex CTE chains. Recursive CTEs use UNION ALL and can traverse hierarchical data. Be careful to include proper termination conditions.",
     "hint": "Use WITH clause to create a CTE",
     "schema": [
       {
@@ -29517,7 +29517,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #1",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29544,7 +29544,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #2",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29571,7 +29571,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #3",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29598,7 +29598,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #4",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29625,7 +29625,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #5",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29652,7 +29652,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #6",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29679,7 +29679,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #7",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29706,7 +29706,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #8",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29733,7 +29733,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #9",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29760,7 +29760,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #10",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29787,7 +29787,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #11",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29814,7 +29814,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #12",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29841,7 +29841,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #13",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29868,7 +29868,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #14",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29895,7 +29895,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #15",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29922,7 +29922,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #16",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29949,7 +29949,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #17",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -29976,7 +29976,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #18",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30003,7 +30003,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #19",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30030,7 +30030,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #20",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30057,7 +30057,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #21",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30084,7 +30084,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #22",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30111,7 +30111,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #23",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30138,7 +30138,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #24",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30165,7 +30165,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #25",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30192,7 +30192,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #26",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30219,7 +30219,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #27",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30246,7 +30246,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #28",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30273,7 +30273,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #29",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30300,7 +30300,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #30",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30327,7 +30327,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #31",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30354,7 +30354,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #32",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30381,7 +30381,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #33",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30408,7 +30408,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #34",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30435,7 +30435,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #35",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30462,7 +30462,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #36",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30489,7 +30489,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #37",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30516,7 +30516,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #38",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30543,7 +30543,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #39",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30570,7 +30570,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #40",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30597,7 +30597,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #41",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30624,7 +30624,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #42",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30651,7 +30651,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #43",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30678,7 +30678,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #44",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30705,7 +30705,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #45",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30732,7 +30732,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #46",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30759,7 +30759,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #47",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30786,7 +30786,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #48",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30813,7 +30813,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #49",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {
@@ -30840,7 +30840,7 @@ export const EXTENDED_QUESTIONS: Question[] = [
     "title": "Date Function - Extract Year #50",
     "difficulty": "easy",
     "topic": "Date Functions",
-    "description": "Extract the year from hire_date for each employee.",
+    "description": "Extract the year from hire_date for each employee. Work with date and time data using functions like DATE(), TIME(), DATETIME(). Use STRFTIME() to format dates or extract parts like year, month, day.",
     "hint": "Use STRFTIME() function",
     "schema": [
       {

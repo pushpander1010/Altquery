@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Play, RotateCcw, Lightbulb, MessageSquare, CheckCircle, XCircle, Home, ChevronRight } from 'lucide-react'
@@ -27,6 +27,9 @@ export default function QuestionPage() {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
   const [editorReady, setEditorReady] = useState(false)
   const [selectedDialect, setSelectedDialect] = useState<string>(question?.dialect || 'sqlite')
+
+  // Refs for scrolling
+  const resultsRef = useRef<HTMLDivElement>(null)
 
   // Initialize SQL.js
   useEffect(() => {
@@ -116,6 +119,10 @@ export default function QuestionPage() {
         setResult({ columns: [], values: [], message: 'Query executed successfully (no results)' })
         // Check if expected result is also empty
         validateAnswer([], [])
+        // Scroll to results
+        setTimeout(() => {
+          resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }, 100)
       } else {
         const resultData = {
           columns: results[0].columns,
@@ -125,12 +132,20 @@ export default function QuestionPage() {
         setResult(resultData)
         // Validate answer
         validateAnswer(results[0].columns, results[0].values)
+        // Scroll to results
+        setTimeout(() => {
+          resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }, 100)
       }
     } catch (err: any) {
       console.error('Query error:', err)
       setError(err.message || 'Query execution failed')
       setResult(null)
       setIsCorrect(false)
+      // Scroll to error
+      setTimeout(() => {
+        resultsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }, 100)
     }
   }
 
@@ -494,7 +509,7 @@ export default function QuestionPage() {
 
           {/* Validation Result */}
           {isCorrect !== null && (
-            <div className={`card ${isCorrect ? 'bg-emerald-900/20 border-emerald-800' : 'bg-amber-900/20 border-amber-800'}`}>
+            <div ref={resultsRef} className={`card ${isCorrect ? 'bg-emerald-900/20 border-emerald-800' : 'bg-amber-900/20 border-amber-800'}`}>
               <div className="flex items-center gap-3">
                 {isCorrect ? (
                   <>
@@ -519,14 +534,14 @@ export default function QuestionPage() {
 
           {/* Results */}
           {error && (
-            <div className="card bg-red-900/20 border-red-800">
+            <div ref={!isCorrect ? resultsRef : undefined} className="card bg-red-900/20 border-red-800">
               <h3 className="font-semibold text-red-400 mb-2">Error</h3>
               <pre className="text-sm text-red-300 whitespace-pre-wrap font-mono">{error}</pre>
             </div>
           )}
 
           {result && (
-            <div className="card">
+            <div ref={isCorrect === null ? resultsRef : undefined} className="card">
               <h3 className="font-semibold mb-4 text-emerald-400">{result.message}</h3>
               {result.values.length > 0 && (
                 <div className="overflow-x-auto">
