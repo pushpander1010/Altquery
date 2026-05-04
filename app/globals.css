@@ -175,6 +175,11 @@ body {
   scrollbar-color: var(--border) var(--bg);
 }
 
+/* Expected output section */
+.expected-output-badge {
+  @apply inline-flex items-center gap-1 px-2 py-1 bg-indigo-900/30 text-indigo-300 rounded text-xs font-medium;
+}
+
 /* Mobile improvements */
 @media (max-width: 768px) {
   .card {

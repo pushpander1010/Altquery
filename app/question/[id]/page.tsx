@@ -27,6 +27,8 @@ export default function QuestionPage() {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
   const [editorReady, setEditorReady] = useState(false)
   const [selectedDialect, setSelectedDialect] = useState<string>(question?.dialect || 'sqlite')
+  const [showExpectedOutput, setShowExpectedOutput] = useState(false)
+  const [expectedOutput, setExpectedOutput] = useState<{ columns: string[], values: any[][] } | null>(null)
 
   // Refs for scrolling
   const resultsRef = useRef<HTMLDivElement>(null)
@@ -72,6 +74,23 @@ export default function QuestionPage() {
         
         setDb(database)
         console.log('Database ready!')
+        
+        // Generate expected output
+        if (question) {
+          try {
+            const expectedResults = database.exec(question.expectedQuery)
+            if (expectedResults.length > 0) {
+              setExpectedOutput({
+                columns: expectedResults[0].columns,
+                values: expectedResults[0].values
+              })
+            } else {
+              setExpectedOutput({ columns: [], values: [] })
+            }
+          } catch (err) {
+            console.error('Error generating expected output:', err)
+          }
+        }
       } catch (err) {
         const error = err as Error
         console.error('Failed to initialize database:', error)
@@ -403,6 +422,70 @@ export default function QuestionPage() {
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Expected Output */}
+      <div className="card mb-6 bg-gradient-to-br from-indigo-900/10 to-purple-900/10 border-indigo-800/50">
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center gap-3">
+            <h2 className="text-lg font-semibold flex items-center gap-2">
+              <CheckCircle className="w-5 h-5 text-indigo-400" />
+              Expected Output
+            </h2>
+            {expectedOutput && expectedOutput.values.length > 0 && (
+              <span className="expected-output-badge">
+                {expectedOutput.values.length} row{expectedOutput.values.length !== 1 ? 's' : ''}
+              </span>
+            )}
+          </div>
+          <button
+            onClick={() => setShowExpectedOutput(!showExpectedOutput)}
+            className="text-sm px-3 py-1.5 rounded-lg bg-indigo-600/20 text-indigo-400 hover:bg-indigo-600/30 hover:text-indigo-300 transition-all font-medium"
+          >
+            {showExpectedOutput ? 'Hide' : 'Show'}
+          </button>
+        </div>
+        
+        {showExpectedOutput && expectedOutput && (
+          <div>
+            <p className="text-sm text-slate-400 mb-4">
+              💡 This is what your query result should look like when correct. Try solving it yourself first!
+            </p>
+            {expectedOutput.values.length > 0 ? (
+              <div className="overflow-x-auto bg-slate-900/50 rounded-lg p-4 border border-slate-800">
+                <table className="result-table">
+                  <thead>
+                    <tr>
+                      {expectedOutput.columns.map((col, i) => (
+                        <th key={i}>{col}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {expectedOutput.values.map((row, i) => (
+                      <tr key={i}>
+                        {row.map((cell, j) => (
+                          <td key={j}>{cell === null ? 'NULL' : String(cell)}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <div className="bg-slate-900/50 rounded-lg p-6 text-center border border-slate-800">
+                <p className="text-slate-400">✓ Query should return no results (empty result set)</p>
+              </div>
+            )}
+          </div>
+        )}
+        
+        {!showExpectedOutput && (
+          <p className="text-sm text-slate-400">
+            Click <span className="text-indigo-400 font-medium">"Show"</span> to see what the correct output should look like. 
+            <span className="block mt-1 text-xs text-slate-500">Tip: Try solving it yourself first for better learning!</span>
+          </p>
+        )}
       </div>
 
       <div className="grid lg:grid-cols-3 gap-6">
