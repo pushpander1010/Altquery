@@ -68,8 +68,13 @@ IMPORTANT: Always consider the student's current SQL attempt and the problem req
       { role: 'user', content: userContextMessage }
     ]
 
-    console.log('Sending request to Together AI with model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo')
+    // Use google/gemma-4-31B-it as primary model (verified working)
+    const primaryModel = 'google/gemma-4-31B-it'
+    const fallbackModel = 'meta-llama/Meta-Llama-3-8B-Instruct-Lite'
+    
+    console.log('Sending request to Together AI with model:', primaryModel)
     console.log('Messages count:', messages.length)
+    console.log('API Key present:', !!TOGETHER_API_KEY)
 
     // Primary model request
     const response = await fetch('https://api.together.xyz/v1/chat/completions', {
@@ -79,7 +84,7 @@ IMPORTANT: Always consider the student's current SQL attempt and the problem req
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo',
+        model: primaryModel,
         messages,
         max_tokens: 300,
         temperature: 0.7,
@@ -88,12 +93,14 @@ IMPORTANT: Always consider the student's current SQL attempt and the problem req
       })
     })
 
+    console.log('Primary model response status:', response.status)
+
     if (!response.ok) {
       const errorText = await response.text()
-      console.error('Together AI API error:', response.status, errorText)
+      console.error('Primary model error:', response.status, errorText)
       
       // Try fallback model if primary fails
-      console.log('Primary model failed, attempting fallback with meta-llama/Llama-2-7b-chat-hf...')
+      console.log('Primary model failed, attempting fallback with:', fallbackModel)
       
       const fallbackResponse = await fetch('https://api.together.xyz/v1/chat/completions', {
         method: 'POST',
@@ -102,7 +109,7 @@ IMPORTANT: Always consider the student's current SQL attempt and the problem req
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          model: 'meta-llama/Llama-2-7b-chat-hf',
+          model: fallbackModel,
           messages,
           max_tokens: 300,
           temperature: 0.7,
@@ -111,11 +118,13 @@ IMPORTANT: Always consider the student's current SQL attempt and the problem req
         })
       })
       
+      console.log('Fallback model response status:', fallbackResponse.status)
+      
       if (!fallbackResponse.ok) {
         const fallbackErrorText = await fallbackResponse.text()
         console.error('Fallback model also failed:', fallbackResponse.status, fallbackErrorText)
         return NextResponse.json({ 
-          error: `AI service temporarily unavailable. Please try again in a moment.` 
+          error: `AI service error: ${fallbackResponse.status}. ${fallbackErrorText}` 
         }, { status: 503 })
       }
       
@@ -126,16 +135,22 @@ IMPORTANT: Always consider the student's current SQL attempt and the problem req
     }
 
     const data = await response.json()
+    console.log('Response data structure:', {
+      hasChoices: !!data.choices,
+      choicesLength: data.choices?.length,
+      hasMessage: !!data.choices?.[0]?.message,
+      messageKeys: Object.keys(data.choices?.[0]?.message || {})
+    })
     
     if (!data.choices || !data.choices[0] || !data.choices[0].message) {
-      console.error('Unexpected response format from Together AI:', data)
+      console.error('Unexpected response format from Together AI:', JSON.stringify(data).substring(0, 500))
       return NextResponse.json({ 
         error: 'Unexpected response format from AI service' 
       }, { status: 500 })
     }
 
     const aiResponse = data.choices[0].message.content || 'I could not generate a response. Please try again.'
-    console.log('AI response generated successfully')
+    console.log('AI response generated successfully, length:', aiResponse.length)
 
     return NextResponse.json({ response: aiResponse })
   } catch (error) {
