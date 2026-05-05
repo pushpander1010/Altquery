@@ -68,8 +68,8 @@ IMPORTANT: Always consider the student's current SQL attempt and the problem req
       { role: 'user', content: userContextMessage }
     ]
 
-    // Use google/gemma-4-31B-it as primary model (verified working)
-    const primaryModel = 'google/gemma-4-31B-it'
+    // Use Qwen/Qwen2.5-7B-Instruct-Turbo as primary model
+    const primaryModel = 'Qwen/Qwen2.5-7B-Instruct-Turbo'
     const fallbackModel = 'meta-llama/Meta-Llama-3-8B-Instruct-Lite'
     
     console.log('Sending request to Together AI with model:', primaryModel)
