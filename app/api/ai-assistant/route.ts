@@ -13,24 +13,40 @@ export async function POST(req: NextRequest) {
   try {
     const { question, description, schema, userQuery, userMessage, conversationHistory } = await req.json()
 
-    // Build context for the AI - only include schema
-    const schemaContext = schema.map((s: any) => 
-      `Table: ${s.tableName}\nColumns: ${s.columns.join(', ')}`
+    const schemaContext = schema.map((s: any) =>
+      [
+        `Table: ${s.tableName}`,
+        s.description ? `Description: ${s.description}` : null,
+        `Columns: ${s.columns.join(', ')}`
+      ].filter(Boolean).join('\n')
     ).join('\n\n')
 
-    const systemPrompt = `You are a SQL tutor helping with this question: "${question}"
+    const systemPrompt = `You are a SQL tutor helping with a single SQL practice problem.
+
+Problem Title:
+${question}
+
+Problem Description:
+${description}
 
 Database Schema:
 ${schemaContext}
-
-${userQuery ? `Student's Query:\n${userQuery}\n` : ''}
 
 Rules:
 - Only answer SQL-related questions about THIS problem
 - Give hints, not complete solutions
 - If asked about unrelated topics, politely decline and redirect to SQL
 - Keep responses under 3 sentences
-- Be encouraging`
+- Be clear and specific
+- Use the student's current SQL query when giving feedback`
+
+    const userContextMessage = [
+      `Student question: ${userMessage}`,
+      `Problem title: ${question}`,
+      `Problem description: ${description}`,
+      `Current SQL query: ${userQuery?.trim() ? userQuery : 'No SQL query provided yet.'}`,
+      `Table schema:\n${schemaContext}`
+    ].join('\n\n')
 
     const messages = [
       { role: 'system', content: systemPrompt },
@@ -38,7 +54,7 @@ Rules:
         role: msg.role === 'user' ? 'user' : 'assistant',
         content: msg.content
       })),
-      { role: 'user', content: userMessage }
+      { role: 'user', content: userContextMessage }
     ]
 
     const response = await fetch('https://api.together.xyz/v1/chat/completions', {

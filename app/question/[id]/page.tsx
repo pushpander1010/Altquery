@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
-import { ArrowLeft, Play, RotateCcw, Lightbulb, MessageSquare, CheckCircle, XCircle, Home, ChevronRight } from 'lucide-react'
+import { ArrowLeft, Play, RotateCcw, Lightbulb, MessageSquare, CheckCircle, XCircle, Home, ChevronRight, Sparkles } from 'lucide-react'
 import { QUESTIONS } from '@/lib/questions'
 import initSqlJs, { Database } from 'sql.js'
 import Editor from '@monaco-editor/react'
@@ -32,6 +32,11 @@ export default function QuestionPage() {
 
   // Refs for scrolling
   const resultsRef = useRef<HTMLDivElement>(null)
+  const aiMessagesEndRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    aiMessagesEndRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' })
+  }, [aiMessages, aiLoading])
 
   // Initialize SQL.js
   useEffect(() => {
@@ -350,38 +355,38 @@ export default function QuestionPage() {
               <h1 className="text-3xl font-bold">{question.title}</h1>
               <span className={`badge-${question.difficulty}`}>{question.difficulty}</span>
             </div>
-            <p className="text-slate-400 mb-4">{question.description}</p>
+            <p className="text-slate-300 mb-4 leading-7">{question.description}</p>
             
             {/* SQL Dialect Selector - Improved UI */}
             <div className="flex items-center gap-2">
-              <span className="text-xs text-slate-500">Practice with:</span>
+              <span className="text-xs font-medium text-slate-300">Practice with:</span>
               <div className="flex gap-1">
                 <button
                   onClick={() => setSelectedDialect('sqlite')}
-                  className={`px-3 py-1 text-xs font-medium rounded-md transition-all ${
+                  className={`px-3 py-1.5 text-xs font-semibold rounded-md border transition-all ${
                     selectedDialect === 'sqlite'
-                      ? 'bg-indigo-600 text-white'
-                      : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-300'
+                      ? 'bg-indigo-500 text-white border-indigo-300/40 shadow-md shadow-indigo-950/40'
+                      : 'bg-slate-800/90 text-slate-100 border-slate-600 hover:bg-slate-700 hover:border-indigo-400/60'
                   }`}
                 >
                   SQLite
                 </button>
                 <button
                   onClick={() => setSelectedDialect('mysql')}
-                  className={`px-3 py-1 text-xs font-medium rounded-md transition-all ${
+                  className={`px-3 py-1.5 text-xs font-semibold rounded-md border transition-all ${
                     selectedDialect === 'mysql'
-                      ? 'bg-indigo-600 text-white'
-                      : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-300'
+                      ? 'bg-indigo-500 text-white border-indigo-300/40 shadow-md shadow-indigo-950/40'
+                      : 'bg-slate-800/90 text-slate-100 border-slate-600 hover:bg-slate-700 hover:border-indigo-400/60'
                   }`}
                 >
                   MySQL
                 </button>
                 <button
                   onClick={() => setSelectedDialect('postgresql')}
-                  className={`px-3 py-1 text-xs font-medium rounded-md transition-all ${
+                  className={`px-3 py-1.5 text-xs font-semibold rounded-md border transition-all ${
                     selectedDialect === 'postgresql'
-                      ? 'bg-indigo-600 text-white'
-                      : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-slate-300'
+                      ? 'bg-indigo-500 text-white border-indigo-300/40 shadow-md shadow-indigo-950/40'
+                      : 'bg-slate-800/90 text-slate-100 border-slate-600 hover:bg-slate-700 hover:border-indigo-400/60'
                   }`}
                 >
                   PostgreSQL
@@ -399,7 +404,7 @@ export default function QuestionPage() {
         </div>
         {showHint && (
           <div className="mt-4 p-4 bg-amber-900/20 border border-amber-800 rounded-lg text-amber-200">
-            💡 {question.hint}
+            <span className="font-semibold text-amber-100">Hint:</span> {question.hint}
           </div>
         )}
       </div>
@@ -411,7 +416,7 @@ export default function QuestionPage() {
           {question.schema.map((table, idx) => (
             <div key={idx} className="bg-slate-800/50 rounded-lg p-4">
               <h3 className="font-mono font-semibold text-indigo-400 mb-2">{table.tableName}</h3>
-              <p className="text-sm text-slate-400 mb-3">{table.description}</p>
+              <p className="text-sm text-slate-300 mb-3">{table.description}</p>
               <div className="flex flex-wrap gap-2">
                 {table.columns.map((col, i) => (
                   <span key={i} className="px-2 py-1 bg-slate-900 rounded text-xs font-mono text-slate-300 break-all">
@@ -440,7 +445,7 @@ export default function QuestionPage() {
           </div>
           <button
             onClick={() => setShowExpectedOutput(!showExpectedOutput)}
-            className="text-sm px-3 py-1.5 rounded-lg bg-indigo-600/20 text-indigo-400 hover:bg-indigo-600/30 hover:text-indigo-300 transition-all font-medium"
+            className="btn-ghost text-sm px-3 py-1.5"
           >
             {showExpectedOutput ? 'Hide' : 'Show'}
           </button>
@@ -449,7 +454,7 @@ export default function QuestionPage() {
         {showExpectedOutput && expectedOutput && (
           <div>
             <p className="text-sm text-slate-400 mb-4">
-              💡 This is what your query result should look like when correct. Try solving it yourself first!
+              This is what your query result should look like when correct. Try solving it yourself first.
             </p>
             {expectedOutput.values.length > 0 ? (
               <div className="overflow-x-auto bg-slate-900/50 rounded-lg p-4 border border-slate-800">
@@ -474,16 +479,16 @@ export default function QuestionPage() {
               </div>
             ) : (
               <div className="bg-slate-900/50 rounded-lg p-6 text-center border border-slate-800">
-                <p className="text-slate-400">✓ Query should return no results (empty result set)</p>
+                <p className="text-slate-300">Query should return no results (empty result set).</p>
               </div>
             )}
           </div>
         )}
         
         {!showExpectedOutput && (
-          <p className="text-sm text-slate-400">
+          <p className="text-sm text-slate-300">
             Click <span className="text-indigo-400 font-medium">"Show"</span> to see what the correct output should look like. 
-            <span className="block mt-1 text-xs text-slate-500">Tip: Try solving it yourself first for better learning!</span>
+            <span className="block mt-1 text-xs text-slate-400">Tip: Try solving it yourself first for better learning.</span>
           </p>
         )}
       </div>
@@ -584,7 +589,7 @@ export default function QuestionPage() {
                 }}
               />
             </div>
-            <p className="text-xs text-slate-500 mt-2">
+            <p className="text-xs text-slate-400 mt-2">
               <span className="hidden sm:inline">Press Ctrl+Enter to run query • </span>
               Start typing for autocomplete
             </p>
@@ -598,8 +603,8 @@ export default function QuestionPage() {
                   <>
                     <CheckCircle className="w-6 h-6 text-emerald-400" />
                     <div>
-                      <h3 className="font-semibold text-emerald-400">Correct! 🎉</h3>
-                      <p className="text-sm text-emerald-300">Your query returned the expected results.</p>
+                      <h3 className="font-semibold text-emerald-400">Correct!</h3>
+                      <p className="text-sm text-emerald-200">Your query returned the expected results.</p>
                     </div>
                   </>
                 ) : (
@@ -607,7 +612,7 @@ export default function QuestionPage() {
                     <XCircle className="w-6 h-6 text-amber-400" />
                     <div>
                       <h3 className="font-semibold text-amber-400">Not quite right</h3>
-                      <p className="text-sm text-amber-300">Your query results don't match the expected output. Try again or ask the AI assistant for help!</p>
+                      <p className="text-sm text-amber-200">Your query results don't match the expected output. Try again or ask the AI assistant for help.</p>
                     </div>
                   </>
                 )}
@@ -665,7 +670,7 @@ export default function QuestionPage() {
             
             <div className="space-y-4 mb-4 max-h-80 lg:max-h-96 overflow-y-auto scrollbar-thin">
               {aiMessages.length === 0 ? (
-                <p className="text-sm text-slate-400 text-center py-8">
+                <p className="text-sm text-slate-300 text-center py-8">
                   <span className="hidden sm:inline">Ask me for hints, corrections, or explanations!</span>
                   <span className="sm:hidden">Ask for help!</span>
                 </p>
@@ -678,13 +683,20 @@ export default function QuestionPage() {
               )}
               {aiLoading && (
                 <div className="chat-bubble-ai">
-                  <div className="flex gap-1">
-                    <div className="w-2 h-2 bg-slate-500 rounded-full animate-bounce"></div>
-                    <div className="w-2 h-2 bg-slate-500 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-                    <div className="w-2 h-2 bg-slate-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+                  <div className="flex items-center gap-3">
+                    <div className="loading-wave flex items-center gap-1.5" aria-hidden="true">
+                      <span className="w-2.5 h-2.5 rounded-full bg-indigo-300"></span>
+                      <span className="w-2.5 h-2.5 rounded-full bg-cyan-300"></span>
+                      <span className="w-2.5 h-2.5 rounded-full bg-emerald-300"></span>
+                    </div>
+                    <div className="flex items-center gap-2 text-slate-200">
+                      <Sparkles className="w-4 h-4 text-indigo-300 animate-pulse" />
+                      <span className="text-sm font-medium">AI is analyzing your question and query...</span>
+                    </div>
                   </div>
                 </div>
               )}
+              <div ref={aiMessagesEndRef} />
             </div>
 
             <div className="flex gap-2">
@@ -700,10 +712,9 @@ export default function QuestionPage() {
               <button
                 onClick={askAI}
                 disabled={aiLoading || !aiInput.trim()}
-                className="btn-primary px-3 flex-shrink-0"
+                className="btn-primary min-w-[90px] px-3 flex-shrink-0"
               >
-                <span className="hidden sm:inline">Send</span>
-                <span className="sm:hidden">→</span>
+                {aiLoading ? 'Thinking...' : 'Send'}
               </button>
             </div>
           </div>

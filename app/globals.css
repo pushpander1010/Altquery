@@ -44,20 +44,20 @@ body {
 
 /* Buttons */
 .btn-primary {
-  @apply bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-indigo-600/20 hover:shadow-indigo-500/30;
+  @apply bg-indigo-500 hover:bg-indigo-400 text-white font-semibold px-4 py-2 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed border border-indigo-300/30 shadow-lg shadow-indigo-950/50 hover:shadow-indigo-500/30 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-indigo-300/70 focus:ring-offset-2 focus:ring-offset-slate-950;
 }
 
 .btn-ghost {
-  @apply border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 hover:bg-slate-800/50;
+  @apply border border-slate-600 bg-slate-800/80 hover:border-indigo-400/60 text-slate-100 hover:text-white font-semibold px-4 py-2 rounded-lg transition-all duration-200 hover:bg-slate-700/90 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-indigo-300/60 focus:ring-offset-2 focus:ring-offset-slate-950;
 }
 
 .btn-success {
-  @apply bg-emerald-600 hover:bg-emerald-500 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-emerald-600/20 hover:shadow-emerald-500/30;
+  @apply bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold px-4 py-2 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed border border-emerald-300/30 shadow-lg shadow-emerald-950/50 hover:shadow-emerald-500/30 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-emerald-300/70 focus:ring-offset-2 focus:ring-offset-slate-950;
 }
 
 /* Input */
 .input-field {
-  @apply w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors;
+  @apply w-full bg-slate-950 border border-slate-600 rounded-lg px-4 py-3 text-slate-50 placeholder-slate-400 focus:outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-400/40 transition-colors;
 }
 
 /* Card */
@@ -132,10 +132,10 @@ body {
 
 /* AI chat bubble */
 .chat-bubble-user {
-  @apply bg-indigo-600/20 border border-indigo-700/40 rounded-2xl rounded-tr-sm px-4 py-3 text-slate-200 text-sm;
+  @apply bg-indigo-500/20 border border-indigo-400/30 rounded-2xl rounded-tr-sm px-4 py-3 text-slate-50 text-sm shadow-md shadow-indigo-950/30;
 }
 .chat-bubble-ai {
-  @apply bg-slate-800/60 border border-slate-700/40 rounded-2xl rounded-tl-sm px-4 py-3 text-slate-200 text-sm;
+  @apply bg-slate-800/90 border border-slate-600/60 rounded-2xl rounded-tl-sm px-4 py-3 text-slate-50 text-sm shadow-md shadow-slate-950/30;
 }
 
 /* Neon glow on focus */
@@ -155,6 +155,29 @@ body {
 }
 .blob-delay {
   animation: blob 7s infinite 2s;
+}
+
+@keyframes pulse-wave {
+  0%, 80%, 100% {
+    transform: scale(0.8);
+    opacity: 0.45;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.loading-wave span {
+  animation: pulse-wave 1.2s infinite ease-in-out;
+}
+
+.loading-wave span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.loading-wave span:nth-child(3) {
+  animation-delay: 0.3s;
 }
 
 @media (prefers-reduced-motion: reduce) {
