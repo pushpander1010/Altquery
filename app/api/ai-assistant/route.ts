@@ -64,7 +64,7 @@ Rules:
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'LiquidAI/LFM2-24B-A2B',
+        model: 'google/gemma-4-31B-it',
         messages,
         max_tokens: 250,
         temperature: 0.7,
