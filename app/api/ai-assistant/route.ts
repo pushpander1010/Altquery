@@ -13,6 +13,14 @@ export async function POST(req: NextRequest) {
   try {
     const { question, description, schema, userQuery, userMessage, conversationHistory } = await req.json()
 
+    // Validate required fields
+    if (!question || !userMessage) {
+      return NextResponse.json({ 
+        error: 'Missing required fields: question and userMessage' 
+      }, { status: 400 })
+    }
+
+    // Build schema context for better AI understanding
     const schemaContext = schema.map((s: any) =>
       [
         `Table: ${s.tableName}`,
@@ -21,33 +29,36 @@ export async function POST(req: NextRequest) {
       ].filter(Boolean).join('\n')
     ).join('\n\n')
 
-    const systemPrompt = `You are a SQL tutor helping with a single SQL practice problem.
+    // Enhanced system prompt following the steering rule:
+    // "pass question, optional(user answer) and table schema to ai for better helping user"
+    const systemPrompt = `You are an expert SQL tutor helping students solve SQL practice problems.
 
-Problem Title:
-${question}
+PROBLEM CONTEXT:
+Title: ${question}
+Description: ${description}
 
-Problem Description:
-${description}
-
-Database Schema:
+DATABASE SCHEMA:
 ${schemaContext}
 
-Rules:
-- Only answer SQL-related questions about THIS problem
-- Give hints, not complete solutions
-- If asked about unrelated topics, politely decline and redirect to SQL
-- Keep responses under 3 sentences
-- Be clear and specific
-- Use the student's current SQL query when giving feedback`
+YOUR ROLE:
+- Help the student understand SQL concepts related to THIS specific problem
+- Provide hints and guidance, NOT complete solutions
+- Reference the student's current SQL query when giving feedback
+- Keep responses concise (2-3 sentences max)
+- Be encouraging and supportive
+- If the student asks about unrelated topics, politely redirect them to SQL
 
+IMPORTANT: Always consider the student's current SQL attempt and the problem requirements when responding.`
+
+    // Build the user context message with all relevant information
     const userContextMessage = [
-      `Student question: ${userMessage}`,
-      `Problem title: ${question}`,
-      `Problem description: ${description}`,
-      `Current SQL query: ${userQuery?.trim() ? userQuery : 'No SQL query provided yet.'}`,
-      `Table schema:\n${schemaContext}`
-    ].join('\n\n')
+      `Student's Question: ${userMessage}`,
+      `\nProblem: ${question}`,
+      `\nStudent's Current SQL Query:\n${userQuery?.trim() ? userQuery : '(No query provided yet)'}`,
+      `\nDatabase Schema:\n${schemaContext}`
+    ].join('\n')
 
+    // Prepare messages array with conversation history
     const messages = [
       { role: 'system', content: systemPrompt },
       ...conversationHistory.map((msg: any) => ({
@@ -57,6 +68,10 @@ Rules:
       { role: 'user', content: userContextMessage }
     ]
 
+    console.log('Sending request to Together AI with model: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo')
+    console.log('Messages count:', messages.length)
+
+    // Primary model request
     const response = await fetch('https://api.together.xyz/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -64,18 +79,22 @@ Rules:
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'google/gemma-4-31B-it',
+        model: 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo',
         messages,
-        max_tokens: 250,
+        max_tokens: 300,
         temperature: 0.7,
         top_p: 0.9,
         stream: false
       })
     })
 
-    // If LiquidAI model fails, try fallback model
-    if (!response.ok && response.status === 400) {
-      console.log('LiquidAI model unavailable, trying fallback...')
+    if (!response.ok) {
+      const errorText = await response.text()
+      console.error('Together AI API error:', response.status, errorText)
+      
+      // Try fallback model if primary fails
+      console.log('Primary model failed, attempting fallback with meta-llama/Llama-2-7b-chat-hf...')
+      
       const fallbackResponse = await fetch('https://api.together.xyz/v1/chat/completions', {
         method: 'POST',
         headers: {
@@ -83,9 +102,9 @@ Rules:
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          model: 'meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo',
+          model: 'meta-llama/Llama-2-7b-chat-hf',
           messages,
-          max_tokens: 250,
+          max_tokens: 300,
           temperature: 0.7,
           top_p: 0.9,
           stream: false
@@ -93,32 +112,37 @@ Rules:
       })
       
       if (!fallbackResponse.ok) {
-        const errorText = await fallbackResponse.text()
-        console.error('Fallback model also failed:', fallbackResponse.status, errorText)
+        const fallbackErrorText = await fallbackResponse.text()
+        console.error('Fallback model also failed:', fallbackResponse.status, fallbackErrorText)
         return NextResponse.json({ 
-          error: `AI service error: ${fallbackResponse.status}. Check server logs.` 
-        }, { status: 500 })
+          error: `AI service temporarily unavailable. Please try again in a moment.` 
+        }, { status: 503 })
       }
       
       const fallbackData = await fallbackResponse.json()
-      const aiResponse = fallbackData.choices[0]?.message?.content || 'Sorry, I could not generate a response.'
+      const aiResponse = fallbackData.choices?.[0]?.message?.content || 'I encountered an issue generating a response. Please try again.'
+      console.log('Fallback model succeeded')
       return NextResponse.json({ response: aiResponse })
     }
 
-    if (!response.ok) {
-      const errorText = await response.text()
-      console.error('Together AI API error:', response.status, errorText)
+    const data = await response.json()
+    
+    if (!data.choices || !data.choices[0] || !data.choices[0].message) {
+      console.error('Unexpected response format from Together AI:', data)
       return NextResponse.json({ 
-        error: `AI service error: ${response.status}. Check server logs.` 
+        error: 'Unexpected response format from AI service' 
       }, { status: 500 })
     }
 
-    const data = await response.json()
-    const aiResponse = data.choices[0]?.message?.content || 'Sorry, I could not generate a response.'
+    const aiResponse = data.choices[0].message.content || 'I could not generate a response. Please try again.'
+    console.log('AI response generated successfully')
 
     return NextResponse.json({ response: aiResponse })
   } catch (error) {
     console.error('AI assistant error:', error)
-    return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error'
+    return NextResponse.json({ 
+      error: `Internal server error: ${errorMessage}` 
+    }, { status: 500 })
   }
 }
