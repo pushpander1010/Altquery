@@ -559,8 +559,31 @@ export default function QuestionPage() {
 
                   // Register SQL completion provider with table and column names
                   monaco.languages.registerCompletionItemProvider('sql', {
+                    triggerCharacters: [' ', '.', '(', ','],
                     provideCompletionItems: (model: any, position: any) => {
                       const suggestions: any[] = []
+
+                      // Add SQL keywords
+                      const sqlKeywords = [
+                        'SELECT', 'FROM', 'WHERE', 'AND', 'OR', 'NOT', 'IN', 'LIKE', 'BETWEEN',
+                        'ORDER BY', 'GROUP BY', 'HAVING', 'LIMIT', 'OFFSET', 'JOIN', 'LEFT JOIN',
+                        'RIGHT JOIN', 'INNER JOIN', 'OUTER JOIN', 'ON', 'AS', 'DISTINCT', 'COUNT',
+                        'SUM', 'AVG', 'MIN', 'MAX', 'INSERT', 'UPDATE', 'DELETE', 'CREATE', 'DROP',
+                        'ALTER', 'TABLE', 'DATABASE', 'INDEX', 'VIEW', 'TRIGGER', 'PROCEDURE',
+                        'FUNCTION', 'CASE', 'WHEN', 'THEN', 'ELSE', 'END', 'UNION', 'EXCEPT',
+                        'INTERSECT', 'WITH', 'CAST', 'COALESCE', 'NULLIF', 'IFNULL', 'IS NULL',
+                        'IS NOT NULL', 'EXISTS', 'ALL', 'ANY', 'SOME'
+                      ]
+
+                      sqlKeywords.forEach(keyword => {
+                        suggestions.push({
+                          label: keyword,
+                          kind: monaco.languages.CompletionItemKind.Keyword,
+                          insertText: keyword,
+                          sortText: '0_' + keyword,
+                          detail: 'SQL Keyword'
+                        })
+                      })
 
                       // Add table names
                       question?.schema.forEach(table => {
@@ -568,17 +591,20 @@ export default function QuestionPage() {
                           label: table.tableName,
                           kind: monaco.languages.CompletionItemKind.Class,
                           insertText: table.tableName,
-                          detail: table.description,
+                          sortText: '1_' + table.tableName,
+                          detail: table.description || 'Table',
                           documentation: `Columns: ${table.columns.join(', ')}`
                         })
 
-                        // Add column names
+                        // Add column names with table prefix
                         table.columns.forEach(col => {
                           suggestions.push({
                             label: col,
                             kind: monaco.languages.CompletionItemKind.Field,
                             insertText: col,
-                            detail: `${table.tableName}.${col}`
+                            sortText: '2_' + col,
+                            detail: `${table.tableName}.${col}`,
+                            documentation: `Column from ${table.tableName}`
                           })
                         })
                       })
