@@ -7,6 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://altquery.com/sitemap.xml',
+    sitemap: 'https://www.altquery.com/sitemap.xml',
+    host: 'https://www.altquery.com',
   }
 }

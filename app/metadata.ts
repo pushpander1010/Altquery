@@ -3,8 +3,8 @@ import { Metadata } from 'next';
 export const siteConfig = {
   name: 'AltQuery - SQL Practice Platform',
   description: '1050+ interactive SQL practice questions. Master SQL with hands-on exercises covering SELECT, JOINs, Window Functions, CTEs, and more. No login required. AI assistant included.',
-  url: 'https://altquery.com',
-  ogImage: 'https://altquery.com/og-image.png',
+  url: 'https://www.altquery.com',
+  ogImage: 'https://www.altquery.com/og-image.png',
   keywords: [
     'SQL practice',
     'SQL tutorial',

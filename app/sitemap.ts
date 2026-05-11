@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { QUESTIONS } from '@/lib/questions'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://altquery.com'
+  const baseUrl = 'https://www.altquery.com'
   
   // Static pages
   const staticPages = [

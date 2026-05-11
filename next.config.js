@@ -7,6 +7,16 @@ const nextConfig = {
     }
     return config
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'altquery.com' }],
+        destination: 'https://www.altquery.com/:path*',
+        permanent: true,
+      },
+    ]
+  },
   async headers() {
     return [
       {

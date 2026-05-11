@@ -8,7 +8,12 @@ import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = defaultMetadata
+export const metadata: Metadata = {
+  ...defaultMetadata,
+  alternates: {
+    canonical: 'https://www.altquery.com',
+  },
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
