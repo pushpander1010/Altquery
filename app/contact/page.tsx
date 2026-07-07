@@ -1,9 +1,23 @@
 import { Mail, MessageSquare, Github, Twitter, Heart } from 'lucide-react'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+import Breadcrumb from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: 'Contact Us — AltQuery Support',
+  description: 'Get in touch with the AltQuery team. Questions, feedback, or partnership inquiries — we respond within 24 hours.',
+  alternates: { canonical: 'https://www.altquery.com/contact' },
+  openGraph: {
+    title: 'Contact Us — AltQuery Support',
+    description: 'Get in touch with the AltQuery team for questions, feedback, or partnerships.',
+    url: 'https://www.altquery.com/contact',
+  },
+}
 
 export default function ContactPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Contact', href: '/contact' }]} />
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Get in Touch</h1>
         <p className="text-xl text-slate-400">

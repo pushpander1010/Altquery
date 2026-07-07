@@ -1,9 +1,18 @@
 import { Shield, Mail, Database, Cookie, Eye, Lock } from 'lucide-react'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+import Breadcrumb from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy — AltQuery',
+  description: 'AltQuery privacy policy. Learn how we handle your data — we store nothing server-side. All practice is done in your browser.',
+  alternates: { canonical: 'https://www.altquery.com/privacy' },
+}
 
 export default function PrivacyPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Privacy Policy', href: '/privacy' }]} />
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Privacy Policy</h1>
         <p className="text-slate-400">Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>

@@ -1,9 +1,18 @@
 import { FileText, AlertTriangle, Scale, Ban, Shield, Mail } from 'lucide-react'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+import Breadcrumb from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: 'Terms of Service — AltQuery',
+  description: 'AltQuery terms of service. Free SQL practice platform — fair use policy and guidelines.',
+  alternates: { canonical: 'https://www.altquery.com/terms' },
+}
 
 export default function TermsPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'Terms of Service', href: '/terms' }]} />
       <div className="mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Terms of Service</h1>
         <p className="text-slate-400">Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>

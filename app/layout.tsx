@@ -52,6 +52,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/" className="text-slate-300 hover:text-white transition-colors">
                 Questions
               </Link>
+              <Link href="/topics/joins" className="text-slate-300 hover:text-white transition-colors">
+                Topics
+              </Link>
               <Link href="/about" className="text-slate-300 hover:text-white transition-colors">
                 About
               </Link>
@@ -73,10 +76,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <h4 className="font-semibold text-white mb-4">Topics</h4>
                 <ul className="space-y-2 text-sm text-slate-400">
-                  <li><Link href="/?topic=SELECT+Basics" className="hover:text-white">SELECT Basics</Link></li>
-                  <li><Link href="/?topic=JOINs" className="hover:text-white">JOINs</Link></li>
-                  <li><Link href="/?topic=Window+Functions" className="hover:text-white">Window Functions</Link></li>
-                  <li><Link href="/?topic=CTEs" className="hover:text-white">CTEs</Link></li>
+                  <li><Link href="/topics/SELECT+Basics" className="hover:text-white">SELECT Basics</Link></li>
+                  <li><Link href="/topics/JOINs" className="hover:text-white">JOINs</Link></li>
+                  <li><Link href="/topics/Window+Functions" className="hover:text-white">Window Functions</Link></li>
+                  <li><Link href="/topics/CTEs" className="hover:text-white">CTEs</Link></li>
                 </ul>
               </div>
               <div>

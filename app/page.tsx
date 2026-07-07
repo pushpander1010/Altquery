@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Search, Filter } from 'lucide-react'
 import { QUESTIONS, TOPICS, Difficulty } from '@/lib/questions'
 import Script from 'next/script'
+import ProgressTracker from '@/components/ProgressTracker'
 
 export default function HomePage() {
   const [search, setSearch] = useState('')
@@ -120,6 +121,25 @@ export default function HomePage() {
             </svg>
             No Signup
           </span>
+        </div>
+      </div>
+
+      {/* Progress */}
+      <ProgressTracker />
+
+      {/* Browse by Topic */}
+      <div className="mb-6">
+        <h2 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Browse by Topic</h2>
+        <div className="flex flex-wrap gap-2">
+          {TOPICS.map(topic => (
+            <Link
+              key={topic}
+              href={`/topics/${encodeURIComponent(topic)}`}
+              className="px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-700 text-sm text-slate-300 hover:border-indigo-600 hover:text-white transition-all"
+            >
+              {topic}
+            </Link>
+          ))}
         </div>
       </div>
 

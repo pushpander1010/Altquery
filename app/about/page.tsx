@@ -1,9 +1,23 @@
 import { Code2, Zap, Brain, Target, CheckCircle, Sparkles, BookOpen, Users, Trophy, Rocket } from 'lucide-react'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+import Breadcrumb from '@/components/Breadcrumb'
+
+export const metadata: Metadata = {
+  title: 'About AltQuery — Free SQL Practice Platform',
+  description: 'Learn about AltQuery, the free SQL practice platform with 1050+ interactive questions, AI assistant, and no login required.',
+  alternates: { canonical: 'https://www.altquery.com/about' },
+  openGraph: {
+    title: 'About AltQuery — Free SQL Practice Platform',
+    description: 'Learn about AltQuery, the free SQL practice platform with 1050+ interactive questions.',
+    url: 'https://www.altquery.com/about',
+  },
+}
 
 export default function AboutPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'Home', href: '/' }, { label: 'About', href: '/about' }]} />
       {/* Hero Section */}
       <div className="text-center mb-16 relative">
         <div className="absolute inset-0 -z-10 overflow-hidden">
